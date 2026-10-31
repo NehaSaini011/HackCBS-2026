@@ -1,0 +1,70 @@
+[
+  {
+    "id": "f_812",
+    "company": {
+      "id": "c_tealbox",
+      "name": "Tealbox"
+    },
+    "test": "latency",
+    "source": "alertmanager",
+    "severity": "critical",
+    "summary": "p95 latency above 500 ms",
+    "status": "awaiting_approval",
+    "incident_id": "inc_12",
+    "duplicates": 3,
+    "first_seen": "2026-11-01T03:12:30Z",
+    "last_seen": "2026-11-01T03:14:30Z",
+    "lesson_id": null
+  },
+  {
+    "id": "f_816",
+    "company": {
+      "id": "c_tealbox",
+      "name": "Tealbox"
+    },
+    "test": "connections",
+    "source": "check_postgres",
+    "severity": "warning",
+    "summary": "Connections at 92% of the limit",
+    "status": "unknown",
+    "incident_id": "inc_13",
+    "duplicates": 0,
+    "first_seen": "2026-11-01T03:20:00Z",
+    "last_seen": "2026-11-01T03:20:00Z",
+    "lesson_id": null
+  },
+  {
+    "id": "f_817",
+    "company": {
+      "id": "c_tealbox",
+      "name": "Tealbox"
+    },
+    "test": "long_transactions",
+    "source": "check_postgres",
+    "severity": "warning",
+    "summary": "Transaction idle for 4 minutes",
+    "status": "open",
+    "incident_id": null,
+    "duplicates": 0,
+    "first_seen": "2026-11-01T03:22:10Z",
+    "last_seen": "2026-11-01T03:22:10Z",
+    "lesson_id": null
+  },
+  {
+    "id": "f_790",
+    "company": {
+      "id": "c_tealbox",
+      "name": "Tealbox"
+    },
+    "test": "latency",
+    "source": "alertmanager",
+    "severity": "critical",
+    "summary": "p95 latency above 500 ms",
+    "status": "resolved",
+    "incident_id": "inc_9",
+    "duplicates": 1,
+    "first_seen": "2026-11-01T01:05:00Z",
+    "last_seen": "2026-11-01T01:06:00Z",
+    "lesson_id": null
+  }
+]
