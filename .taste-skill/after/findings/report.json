@@ -1,0 +1,1457 @@
+{
+ "url": "http://localhost:4173/__inspect.html?as=engineer&to=/findings",
+ "at": "2026-10-31T20:48:05.751Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 2,
+   "filled": [
+    0.64,
+    0.77
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 1236,
+     "screens": 1.4,
+     "words": 234,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 10,
+     "sections": 1,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Findings inbox",
+     "words": 2,
+     "chars": 14,
+     "lines": 1,
+     "size": 26,
+     "vw": 1.8,
+     "font": "JetBrains Mono",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.15,
+     "top": 58,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "Findings inbox",
+     "words": 2,
+     "lines": 1,
+     "size": 26,
+     "font": "JetBrains Mono"
+    },
+    "headings": [
+     {
+      "text": "1",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "JetBrains Mono",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "right",
+      "position": "left",
+      "widthRatio": 0.2,
+      "top": 179,
+      "tag": "p",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "JetBrains Mono",
+       "share": 1,
+       "mono": true
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      12,
+      13,
+      20,
+      26,
+      30
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "JetBrains Mono",
+      "size": 13,
+      "leading": 1.54,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8
+     },
+     "measureChars": 80,
+     "max": {
+      "size": 30,
+      "vw": 2.1,
+      "font": "JetBrains Mono",
+      "text": "1"
+     },
+     "monoShare": 1,
+     "monoProseShare": 1,
+     "monoFamilies": [
+      "JetBrains Mono"
+     ],
+     "monoSamples": [
+      "Tealbox · on call",
+      "Findings inbox",
+      "1 finding is waiting on your approval, a",
+      "Refresh",
+      "Awaiting your approval",
+      "1"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.05,
+     "centerShare": 0.01,
+     "smallText": 9
+    },
+    "eyebrows": [
+     {
+      "text": "Awaiting your approval",
+      "above": "1",
+      "upper": false,
+      "tracked": false,
+      "mono": true,
+      "pill": false,
+      "size": 13,
+      "top": 153
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#050c1c",
+     "bodyBgHsl": {
+      "h": 222,
+      "s": 0.7,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0b1730",
+       "top": 338,
+       "hsl": {
+        "h": 221,
+        "s": 0.63,
+        "l": 0.12
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#93a7c9",
+       "share": 0.58
+      },
+      {
+       "color": "#eef3fb",
+       "share": 0.34
+      },
+      {
+       "color": "#c2d0e8",
+       "share": 0.03
+      },
+      {
+       "color": "#ef8fa2",
+       "share": 0.02
+      },
+      {
+       "color": "#e0a94a",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#0b1730",
+      "hsl": {
+       "h": 221,
+       "s": 0.63,
+       "l": 0.12
+      },
+      "fg": "#eef3fb"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 1,
+     "inHero": 1,
+     "radius": "pill",
+     "height": 34,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 1,
+     "upper": 0,
+     "heroLabels": [
+      "Refresh"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 5,
+     "hairlineSamples": [
+      "aside.sidebar 50px",
+      "p.page-foot 1284px",
+      "div.row 1284px",
+      "div.row 1284px",
+      "div.row 1284px"
+     ],
+     "outlinedBoxes": 3,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 3,
+     "boxRadius": 6,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 900,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "jetbrains mono"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 1236,
+    "margins": {
+     "left": 82,
+     "right": 45
+    },
+    "sections": [
+     {
+      "sel": "div.panel",
+      "tag": "div",
+      "top": 338,
+      "height": 489,
+      "words": 110,
+      "media": 0,
+      "middle": 132,
+      "heading": null,
+      "left": 95,
+      "right": 45,
+      "textLeft": 95,
+      "textRight": 45,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.panel",
+      "tag": "section",
+      "top": 851,
+      "height": 353,
+      "words": 55,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Guardrails this screen enforces",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 103,
+      "right": 848,
+      "textLeft": 103,
+      "textRight": 848,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Findings inbox",
+      "size": 26,
+      "top": 58,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 82,
+      "n": 1
+     },
+     {
+      "x": 103,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 2,
+    "bodySize": 13,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0.05,
+    "voidBox": {
+     "x": 1080,
+     "y": 420,
+     "w": 180,
+     "h": 360
+    }
+   },
+   "app": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "dark": true,
+    "ground": "#050c1c",
+    "sidebar": {
+     "w": 50,
+     "tag": "aside",
+     "links": 3,
+     "share": 0.03
+    },
+    "topbar": null,
+    "canvas": {
+     "left": 32,
+     "right": 32
+    },
+    "hero": {
+     "text": "Findings inbox",
+     "words": 2,
+     "chars": 14,
+     "lines": 1,
+     "size": 26,
+     "vw": 1.8,
+     "font": "JetBrains Mono",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.15,
+     "top": 58,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 3,
+     "firstScreen": 3,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 3,
+     "radii": [
+      [
+       6,
+       3
+      ]
+     ],
+     "heavyBorders": 0,
+     "borderSamples": [],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 6,
+     "leftAligned": 0,
+     "figures": 0,
+     "tabularShare": null,
+     "kpiMax": null
+    },
+    "rows": {
+     "count": 6,
+     "median": 67
+    },
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0.22,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      12,
+      13,
+      20,
+      26
+     ]
+    },
+    "title": {
+     "text": "Findings inbox",
+     "size": 26,
+     "top": 58
+    },
+    "colourShare": 0.007
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 2,
+   "filled": [
+    0.79,
+    0.83
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 1781,
+     "screens": 1.7,
+     "words": 236,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 10,
+     "sections": 1,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Findings inbox",
+     "words": 2,
+     "chars": 14,
+     "lines": 1,
+     "size": 20,
+     "vw": 2.6,
+     "font": "JetBrains Mono",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.15,
+     "top": 42,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "Findings inbox",
+     "words": 2,
+     "lines": 1,
+     "size": 20,
+     "font": "JetBrains Mono"
+    },
+    "headings": [
+     {
+      "text": "1",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "JetBrains Mono",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "right",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 156,
+      "tag": "p",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "JetBrains Mono",
+       "share": 1,
+       "mono": true
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      11,
+      12,
+      13,
+      20,
+      30
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "JetBrains Mono",
+      "size": 13,
+      "leading": 1.54,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8
+     },
+     "measureChars": 80,
+     "max": {
+      "size": 30,
+      "vw": 3.9,
+      "font": "JetBrains Mono",
+      "text": "1"
+     },
+     "monoShare": 1,
+     "monoProseShare": 1,
+     "monoFamilies": [
+      "JetBrains Mono"
+     ],
+     "monoSamples": [
+      "Findings",
+      "Lessons",
+      "Tealbox · on call",
+      "Findings inbox",
+      "1 finding is waiting on your approval, a",
+      "Refresh"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.05,
+     "centerShare": 0.01,
+     "smallText": 9
+    },
+    "eyebrows": [
+     {
+      "text": "Awaiting your approval",
+      "above": "1",
+      "upper": false,
+      "tracked": false,
+      "mono": true,
+      "pill": false,
+      "size": 13,
+      "top": 130
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#050c1c",
+     "bodyBgHsl": {
+      "h": 222,
+      "s": 0.7,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0b1730",
+       "top": 418,
+       "hsl": {
+        "h": 221,
+        "s": 0.63,
+        "l": 0.12
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#93a7c9",
+       "share": 0.58
+      },
+      {
+       "color": "#eef3fb",
+       "share": 0.35
+      },
+      {
+       "color": "#c2d0e8",
+       "share": 0.03
+      },
+      {
+       "color": "#ef8fa2",
+       "share": 0.02
+      },
+      {
+       "color": "#e0a94a",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#0b1730",
+      "hsl": {
+       "h": 221,
+       "s": 0.63,
+       "l": 0.12
+      },
+      "fg": "#eef3fb"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 1,
+     "inHero": 1,
+     "radius": "pill",
+     "height": 34,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 1,
+     "upper": 0,
+     "heroLabels": [
+      "Refresh"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 7,
+     "hairlineSamples": [
+      "aside.sidebar 768px",
+      "div.kpi 367px",
+      "div.kpi 367px",
+      "p.page-foot 694px",
+      "div.row 694px"
+     ],
+     "outlinedBoxes": 3,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 3,
+     "boxRadius": 6,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": true,
+     "height": 62,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "jetbrains mono"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 1781,
+    "margins": {
+     "left": 16,
+     "right": 29
+    },
+    "sections": [
+     {
+      "sel": "div.kpis",
+      "tag": "div",
+      "top": 115,
+      "height": 217,
+      "words": 19,
+      "media": 0,
+      "middle": 195,
+      "heading": null,
+      "left": 37,
+      "right": 262,
+      "textLeft": 37,
+      "textRight": 262,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.panel",
+      "tag": "div",
+      "top": 418,
+      "height": 909,
+      "words": 110,
+      "media": 0,
+      "middle": 33,
+      "heading": null,
+      "left": 29,
+      "right": 29,
+      "textLeft": 29,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.panel",
+      "tag": "section",
+      "top": 1350,
+      "height": 353,
+      "words": 55,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Guardrails this screen enforces",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 37,
+      "right": 242,
+      "textLeft": 37,
+      "textRight": 242,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Findings inbox",
+      "size": 20,
+      "top": 42,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 16,
+      "n": 1
+     },
+     {
+      "x": 37,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 2,
+    "bodySize": 13,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "dark": true,
+    "ground": "#050c1c",
+    "sidebar": null,
+    "topbar": null,
+    "canvas": {
+     "left": 16,
+     "right": 16
+    },
+    "hero": {
+     "text": "Findings inbox",
+     "words": 2,
+     "chars": 14,
+     "lines": 1,
+     "size": 20,
+     "vw": 2.6,
+     "font": "JetBrains Mono",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.15,
+     "top": 42,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 3,
+     "firstScreen": 2,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 7,
+     "radii": [
+      [
+       0,
+       4
+      ],
+      [
+       6,
+       3
+      ]
+     ],
+     "heavyBorders": 0,
+     "borderSamples": [],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 6,
+     "leftAligned": 0,
+     "figures": 0,
+     "tabularShare": null,
+     "kpiMax": null
+    },
+    "rows": {
+     "count": 6,
+     "median": 147
+    },
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0.23,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      11,
+      12,
+      13,
+      20
+     ]
+    },
+    "title": {
+     "text": "Findings inbox",
+     "size": 20,
+     "top": 42
+    },
+    "colourShare": 0.006
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 3,
+   "filled": [
+    0.73,
+    0.87,
+    0.87
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 2273,
+     "screens": 2.7,
+     "words": 236,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 10,
+     "sections": 1,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 1,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Findings inbox",
+     "words": 2,
+     "chars": 14,
+     "lines": 1,
+     "size": 20,
+     "vw": 5.1,
+     "font": "JetBrains Mono",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.15,
+     "top": 42,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "Findings inbox",
+     "words": 2,
+     "lines": 1,
+     "size": 20,
+     "font": "JetBrains Mono"
+    },
+    "headings": [
+     {
+      "text": "1",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "JetBrains Mono",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "right",
+      "position": "left",
+      "widthRatio": 0.35,
+      "top": 242,
+      "tag": "p",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "JetBrains Mono",
+       "share": 1,
+       "mono": true
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      11,
+      12,
+      13,
+      20,
+      30
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "JetBrains Mono",
+      "size": 13,
+      "leading": 1.54,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8
+     },
+     "measureChars": 55,
+     "max": {
+      "size": 30,
+      "vw": 7.7,
+      "font": "JetBrains Mono",
+      "text": "1"
+     },
+     "monoShare": 1,
+     "monoProseShare": 1,
+     "monoFamilies": [
+      "JetBrains Mono"
+     ],
+     "monoSamples": [
+      "Findings",
+      "Lessons",
+      "Tealbox · on call",
+      "Findings inbox",
+      "1 finding is waiting on your approval, a",
+      "Refresh"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.05,
+     "centerShare": 0.01,
+     "smallText": 9
+    },
+    "eyebrows": [
+     {
+      "text": "Awaiting your approval",
+      "above": "1",
+      "upper": false,
+      "tracked": false,
+      "mono": true,
+      "pill": false,
+      "size": 13,
+      "top": 196
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#050c1c",
+     "bodyBgHsl": {
+      "h": 222,
+      "s": 0.7,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0b1730",
+       "top": 552,
+       "hsl": {
+        "h": 221,
+        "s": 0.63,
+        "l": 0.12
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#93a7c9",
+       "share": 0.58
+      },
+      {
+       "color": "#eef3fb",
+       "share": 0.35
+      },
+      {
+       "color": "#c2d0e8",
+       "share": 0.03
+      },
+      {
+       "color": "#ef8fa2",
+       "share": 0.02
+      },
+      {
+       "color": "#e0a94a",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#0b1730",
+      "hsl": {
+       "h": 221,
+       "s": 0.63,
+       "l": 0.12
+      },
+      "fg": "#eef3fb"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 1,
+     "inHero": 1,
+     "radius": "pill",
+     "height": 34,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 1,
+     "upper": 0,
+     "heroLabels": [
+      "Refresh"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 5,
+     "hairlineSamples": [
+      "aside.sidebar 390px",
+      "p.page-foot 316px",
+      "div.row 316px",
+      "div.row 316px",
+      "div.row 316px"
+     ],
+     "outlinedBoxes": 3,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 3,
+     "boxRadius": 6,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": true,
+     "height": 62,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "jetbrains mono"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 2273,
+    "margins": {
+     "left": 16,
+     "right": 42
+    },
+    "sections": [
+     {
+      "sel": "div.title-row",
+      "tag": "div",
+      "top": 16,
+      "height": 141,
+      "words": 20,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Findings inbox",
+       "size": 20,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 46,
+      "textLeft": 16,
+      "textRight": 46,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.kpis",
+      "tag": "div",
+      "top": 181,
+      "height": 257,
+      "words": 19,
+      "media": 0,
+      "middle": 57,
+      "heading": null,
+      "left": 37,
+      "right": 73,
+      "textLeft": 37,
+      "textRight": 73,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.panel",
+      "tag": "div",
+      "top": 552,
+      "height": 1161,
+      "words": 86,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 29,
+      "right": 42,
+      "textLeft": 29,
+      "textRight": 42,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.panel",
+      "tag": "section",
+      "top": 1736,
+      "height": 459,
+      "words": 55,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Guardrails this screen enforces",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 37,
+      "right": 43,
+      "textLeft": 37,
+      "textRight": 43,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Findings inbox",
+      "size": 20,
+      "top": 42,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 16,
+      "n": 1
+     },
+     {
+      "x": 37,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 2,
+    "bodySize": 13,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "dark": true,
+    "ground": "#050c1c",
+    "sidebar": null,
+    "topbar": null,
+    "canvas": {
+     "left": 16,
+     "right": -314
+    },
+    "hero": {
+     "text": "Findings inbox",
+     "words": 2,
+     "chars": 14,
+     "lines": 1,
+     "size": 20,
+     "vw": 5.1,
+     "font": "JetBrains Mono",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.15,
+     "top": 42,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 3,
+     "firstScreen": 2,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 10,
+     "radii": [
+      [
+       0,
+       7
+      ],
+      [
+       6,
+       3
+      ]
+     ],
+     "heavyBorders": 0,
+     "borderSamples": [],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 6,
+     "leftAligned": 0,
+     "figures": 0,
+     "tabularShare": null,
+     "kpiMax": null
+    },
+    "rows": {
+     "count": 6,
+     "median": 187
+    },
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0.23,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      11,
+      12,
+      13,
+      20
+     ]
+    },
+    "title": {
+     "text": "Findings inbox",
+     "size": 20,
+     "top": 42
+    },
+    "colourShare": 0.004
+   },
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "font-not-dealt",
+   "width": 1440,
+   "message": "The sheet dealt Public Sans, but the page renders JetBrains Mono.",
+   "fix": "Load the dealt face (the link on the sheet) and put it first in font-family. A build that falls back to a default face lands on the default look."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/Users/shubham.jindal/Downloads/HackCBS_Person3_Frontend 2/.taste-skill/after/findings/desktop-fold.jpg",
+   "pages": [
+    "/Users/shubham.jindal/Downloads/HackCBS_Person3_Frontend 2/.taste-skill/after/findings/desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/Users/shubham.jindal/Downloads/HackCBS_Person3_Frontend 2/.taste-skill/after/findings/tablet-fold.jpg",
+   "pages": [
+    "/Users/shubham.jindal/Downloads/HackCBS_Person3_Frontend 2/.taste-skill/after/findings/tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/Users/shubham.jindal/Downloads/HackCBS_Person3_Frontend 2/.taste-skill/after/findings/mobile-fold.jpg",
+   "pages": [
+    "/Users/shubham.jindal/Downloads/HackCBS_Person3_Frontend 2/.taste-skill/after/findings/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

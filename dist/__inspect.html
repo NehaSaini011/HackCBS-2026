@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>inspection harness</title>
+  </head>
+  <body>
+    <!--
+      Dev-only harness for design tooling (scripts/inspect.mjs).
+
+      The app is a client-rendered SPA behind a login, so an automated browser
+      lands on /login and can never reach the inner screens. This page seeds the
+      two sessionStorage keys the app itself writes after a real sign-in, then
+      navigates to the requested route.
+
+      It is not an auth bypass: it writes a fake token. In live mode the Group API
+      rejects that token with 401 and the app returns to /login as usual. In mock
+      mode there is no server and the fixtures are used.
+
+      Delete this file before shipping; it must not reach a deployment.
+
+      Usage: /__inspect.html?as=engineer|admin&to=/findings
+    -->
+    <script>
+      const q = new URLSearchParams(location.search);
+      const as = q.get("as") || "engineer";
+      const to = q.get("to") || "/findings";
+
+      const users = {
+        engineer: {
+          id: "u_3",
+          email: "priya@tealbox.demo",
+          role: "engineer",
+          group_id: "g_fund1",
+          company: { id: "c_tealbox", name: "Tealbox" },
+        },
+        admin: {
+          id: "u_1",
+          email: "platform@fund1.demo",
+          role: "group_admin",
+          group_id: "g_fund1",
+          company: null,
+        },
+      };
+
+      sessionStorage.setItem("token", "inspect-harness-token");
+      sessionStorage.setItem("demo_user", JSON.stringify(users[as] || users.engineer));
+      location.replace(to);
+    </script>
+  </body>
+</html>

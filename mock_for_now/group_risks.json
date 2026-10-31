@@ -1,0 +1,61 @@
+[
+  {
+    "id": "missing_index",
+    "risk_type": "missing_index",
+    "affected": 2,
+    "companies": [
+      {
+        "id": "c_tealbox",
+        "name": "Tealbox",
+        "status": "open",
+        "finding_id": "f_815"
+      },
+      {
+        "id": "c_northstar",
+        "name": "Northstar",
+        "status": "pushed",
+        "finding_id": null
+      }
+    ],
+    "proven_lesson": {
+      "id": "les_041",
+      "cause_class": "MISSING_INDEX",
+      "confirmations": 2,
+      "trust_score": 2
+    }
+  },
+  {
+    "id": "connections",
+    "risk_type": "connections",
+    "affected": 1,
+    "companies": [
+      {
+        "id": "c_tealbox",
+        "name": "Tealbox",
+        "status": "open",
+        "finding_id": "f_801"
+      }
+    ],
+    "proven_lesson": null
+  },
+  {
+    "id": "lock_contention",
+    "risk_type": "lock_contention",
+    "affected": 2,
+    "companies": [
+      {
+        "id": "c_pinecart",
+        "name": "Pinecart",
+        "status": "open",
+        "finding_id": null
+      },
+      {
+        "id": "c_lumen",
+        "name": "LumenPay",
+        "status": "open",
+        "finding_id": null
+      }
+    ],
+    "proven_lesson": null
+  }
+]

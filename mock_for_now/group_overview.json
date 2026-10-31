@@ -1,0 +1,70 @@
+[
+  {
+    "company": {
+      "id": "c_pinecart",
+      "name": "Pinecart"
+    },
+    "tech_stack": "Python, FastAPI, Postgres (Tiger)",
+    "open_findings": {
+      "critical": 0,
+      "warning": 1,
+      "info": 0
+    },
+    "open_risks": 1,
+    "last_incident": {
+      "id": "inc_11",
+      "status": "resolved",
+      "at": "2026-11-01T02:40:00Z"
+    }
+  },
+  {
+    "company": {
+      "id": "c_tealbox",
+      "name": "Tealbox"
+    },
+    "tech_stack": "Python, FastAPI, Postgres (Tiger)",
+    "open_findings": {
+      "critical": 2,
+      "warning": 2,
+      "info": 0
+    },
+    "open_risks": 2,
+    "last_incident": {
+      "id": "inc_12",
+      "status": "awaiting_approval",
+      "at": "2026-11-01T03:12:30Z"
+    }
+  },
+  {
+    "company": {
+      "id": "c_northstar",
+      "name": "Northstar"
+    },
+    "tech_stack": "Java, Spring, Postgres (Tiger)",
+    "open_findings": {
+      "critical": 0,
+      "warning": 1,
+      "info": 1
+    },
+    "open_risks": 1,
+    "last_incident": {
+      "id": "inc_08",
+      "status": "resolved",
+      "at": "2026-10-31T21:10:00Z"
+    }
+  },
+  {
+    "company": {
+      "id": "c_lumen",
+      "name": "LumenPay"
+    },
+    "tech_stack": "Python, Django, Postgres (Tiger)",
+    "open_findings": {
+      "critical": 0,
+      "warning": 0,
+      "info": 0
+    },
+    "open_risks": 0,
+    "last_incident": null
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "priya@tealbox.demo": {
+    "token": "mock-token-priya",
+    "user": {
+      "id": "u_3",
+      "email": "priya@tealbox.demo",
+      "role": "engineer",
+      "group_id": "g_fund1",
+      "company": { "id": "c_tealbox", "name": "Tealbox" }
+    }
+  },
+  "arjun@pinecart.demo": {
+    "token": "mock-token-arjun",
+    "user": {
+      "id": "u_2",
+      "email": "arjun@pinecart.demo",
+      "role": "engineer",
+      "group_id": "g_fund1",
+      "company": { "id": "c_pinecart", "name": "Pinecart" }
+    }
+  },
+  "platform@fund1.demo": {
+    "token": "mock-token-platform",
+    "user": {
+      "id": "u_1",
+      "email": "platform@fund1.demo",
+      "role": "group_admin",
+      "group_id": "g_fund1",
+      "company": null
+    }
+  },
+  "admin@fund.demo": {
+    "token": "mock-token-platform",
+    "user": {
+      "id": "u_1",
+      "email": "admin@fund.demo",
+      "role": "group_admin",
+      "group_id": "g_fund1",
+      "company": null
+    }
+  }
+}
