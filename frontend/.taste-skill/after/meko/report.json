@@ -1,0 +1,1301 @@
+{
+ "url": "http://localhost:5173/__inspect.html?as=admin&to=/meko",
+ "at": "2026-10-31T21:27:27.224Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 2,
+   "filled": [
+    0.67,
+    0.82
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 1047,
+     "screens": 1.2,
+     "words": 302,
+     "img": 1,
+     "video": 0,
+     "canvas": 0,
+     "svg": 10,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Meko settings",
+     "words": 2,
+     "chars": 13,
+     "lines": 1,
+     "size": 26,
+     "vw": 1.8,
+     "font": "Public Sans",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.15,
+     "top": 58,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "Meko settings",
+     "words": 2,
+     "lines": 1,
+     "size": 26,
+     "font": "Public Sans"
+    },
+    "headings": [],
+    "headingSummary": {
+     "count": 0,
+     "maxLines": 0,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Public Sans",
+       "share": 0.97,
+       "mono": false
+      },
+      {
+       "family": "JetBrains Mono",
+       "share": 0.03,
+       "mono": true
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      12,
+      13,
+      20,
+      26
+     ],
+     "sizeCount": 4,
+     "notLoaded": [],
+     "body": {
+      "font": "Public Sans",
+      "size": 13,
+      "leading": 1.54,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 5
+     },
+     "measureChars": 94,
+     "max": {
+      "size": 26,
+      "vw": 1.8,
+      "font": "Public Sans",
+      "text": "Meko settings"
+     },
+     "monoShare": 0.03,
+     "monoProseShare": 0.03,
+     "monoFamilies": [
+      "JetBrains Mono"
+     ],
+     "monoSamples": [
+      "les_041",
+      "les_seed_02",
+      "les_failed_03",
+      "les_review_04"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.04,
+     "centerShare": 0,
+     "smallText": 7
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f4f7fb",
+     "bodyBgHsl": {
+      "h": 214,
+      "s": 0.47,
+      "l": 0.97
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 696,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#5a6b85",
+       "share": 0.63
+      },
+      {
+       "color": "#0f2440",
+       "share": 0.34
+      },
+      {
+       "color": "#8f2318",
+       "share": 0.01
+      },
+      {
+       "color": "#10583f",
+       "share": 0.01
+      },
+      {
+       "color": "#33475f",
+       "share": 0.01
+      }
+     ],
+     "button": null,
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 0,
+     "inHero": 0,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 9,
+     "hairlineSamples": [
+      "aside.sidebar 50px",
+      "div.row 609px",
+      "div.row 609px",
+      "div.row 609px",
+      "div.row 609px"
+     ],
+     "outlinedBoxes": 4,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 4,
+     "boxRadius": 6,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 900,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "jetbrains mono",
+     "public sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 1047,
+    "margins": {
+     "left": 82,
+     "right": 53
+    },
+    "sections": [
+     {
+      "sel": "div.grid.top",
+      "tag": "div",
+      "top": 269,
+      "height": 403,
+      "words": 154,
+      "media": 0,
+      "middle": 72,
+      "heading": {
+       "text": "What this switch changes",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 103,
+      "right": 53,
+      "textLeft": 103,
+      "textRight": 53,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.panel",
+      "tag": "section",
+      "top": 696,
+      "height": 320,
+      "words": 84,
+      "media": 0,
+      "middle": 31,
+      "heading": {
+       "text": "What memory holds right now",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 103,
+      "right": 53,
+      "textLeft": 103,
+      "textRight": 53,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Meko settings",
+      "size": 26,
+      "top": 58,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 103,
+      "n": 2
+     },
+     {
+      "x": 82,
+      "n": 1
+     },
+     {
+      "x": 778,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 4,
+    "bodySize": 13,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0.05,
+    "voidBox": {
+     "x": 420,
+     "y": 240,
+     "w": 180,
+     "h": 360
+    }
+   },
+   "app": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "dark": false,
+    "ground": "#f4f7fb",
+    "sidebar": {
+     "w": 50,
+     "tag": "aside",
+     "links": 5,
+     "share": 0.03
+    },
+    "topbar": null,
+    "canvas": {
+     "left": 32,
+     "right": 53
+    },
+    "hero": {
+     "text": "Meko settings",
+     "words": 2,
+     "chars": 13,
+     "lines": 1,
+     "size": 26,
+     "vw": 1.8,
+     "font": "Public Sans",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.15,
+     "top": 58,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 4,
+     "firstScreen": 4,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 4,
+     "radii": [
+      [
+       6,
+       4
+      ]
+     ],
+     "heavyBorders": 0,
+     "borderSamples": [],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 8,
+     "leftAligned": 0,
+     "figures": 0,
+     "tabularShare": null,
+     "kpiMax": null
+    },
+    "rows": {
+     "count": 4,
+     "median": 43
+    },
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0.12,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      12,
+      13,
+      20,
+      26
+     ]
+    },
+    "title": {
+     "text": "Meko settings",
+     "size": 26,
+     "top": 58
+    },
+    "colourShare": 0
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 2,
+   "filled": [
+    0.8,
+    0.89
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 1546,
+     "screens": 1.5,
+     "words": 306,
+     "img": 1,
+     "video": 0,
+     "canvas": 0,
+     "svg": 10,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Meko settings",
+     "words": 2,
+     "chars": 13,
+     "lines": 1,
+     "size": 20,
+     "vw": 2.6,
+     "font": "Public Sans",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.15,
+     "top": 42,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "Meko settings",
+     "words": 2,
+     "lines": 1,
+     "size": 20,
+     "font": "Public Sans"
+    },
+    "headings": [],
+    "headingSummary": {
+     "count": 0,
+     "maxLines": 0,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Public Sans",
+       "share": 0.97,
+       "mono": false
+      },
+      {
+       "family": "JetBrains Mono",
+       "share": 0.03,
+       "mono": true
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      11,
+      12,
+      13,
+      20
+     ],
+     "sizeCount": 4,
+     "notLoaded": [],
+     "body": {
+      "font": "Public Sans",
+      "size": 13,
+      "leading": 1.54,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 5
+     },
+     "measureChars": 107,
+     "max": {
+      "size": 20,
+      "vw": 2.6,
+      "font": "Public Sans",
+      "text": "Meko settings"
+     },
+     "monoShare": 0.03,
+     "monoProseShare": 0.03,
+     "monoFamilies": [
+      "JetBrains Mono"
+     ],
+     "monoSamples": [
+      "les_041",
+      "les_seed_02",
+      "les_failed_03",
+      "les_review_04"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.04,
+     "centerShare": 0,
+     "smallText": 7
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f4f7fb",
+     "bodyBgHsl": {
+      "h": 214,
+      "s": 0.47,
+      "l": 0.97
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 266,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#5a6b85",
+       "share": 0.63
+      },
+      {
+       "color": "#0f2440",
+       "share": 0.34
+      },
+      {
+       "color": "#8f2318",
+       "share": 0.01
+      },
+      {
+       "color": "#10583f",
+       "share": 0.01
+      },
+      {
+       "color": "#33475f",
+       "share": 0.01
+      }
+     ],
+     "button": null,
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 0,
+     "inHero": 0,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 9,
+     "hairlineSamples": [
+      "aside.sidebar 768px",
+      "div.row 694px",
+      "div.row 694px",
+      "div.row 694px",
+      "div.row 694px"
+     ],
+     "outlinedBoxes": 4,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 4,
+     "boxRadius": 6,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": true,
+     "height": 62,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "jetbrains mono",
+     "public sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 1546,
+    "margins": {
+     "left": 16,
+     "right": 37
+    },
+    "sections": [
+     {
+      "sel": "div.grid.top",
+      "tag": "div",
+      "top": 266,
+      "height": 798,
+      "words": 154,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "What this switch changes",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 37,
+      "right": 37,
+      "textLeft": 37,
+      "textRight": 37,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.panel",
+      "tag": "section",
+      "top": 1088,
+      "height": 380,
+      "words": 84,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "What memory holds right now",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 37,
+      "right": 37,
+      "textLeft": 37,
+      "textRight": 37,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Meko settings",
+      "size": 20,
+      "top": 42,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 37,
+      "n": 3
+     },
+     {
+      "x": 16,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 4,
+    "bodySize": 13,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "dark": false,
+    "ground": "#f4f7fb",
+    "sidebar": null,
+    "topbar": null,
+    "canvas": {
+     "left": 16,
+     "right": 37
+    },
+    "hero": {
+     "text": "Meko settings",
+     "words": 2,
+     "chars": 13,
+     "lines": 1,
+     "size": 20,
+     "vw": 2.6,
+     "font": "Public Sans",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.15,
+     "top": 42,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 4,
+     "firstScreen": 3,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 4,
+     "radii": [
+      [
+       6,
+       4
+      ]
+     ],
+     "heavyBorders": 0,
+     "borderSamples": [],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 8,
+     "leftAligned": 0,
+     "figures": 0,
+     "tabularShare": null,
+     "kpiMax": null
+    },
+    "rows": {
+     "count": 4,
+     "median": 63
+    },
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0.14,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      11,
+      12,
+      13,
+      20
+     ]
+    },
+    "title": {
+     "text": "Meko settings",
+     "size": 20,
+     "top": 42
+    },
+    "colourShare": 0.001
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 3,
+   "filled": [
+    0.75,
+    0.83,
+    0.89
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 1828,
+     "screens": 2.2,
+     "words": 306,
+     "img": 1,
+     "video": 0,
+     "canvas": 0,
+     "svg": 10,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 1,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Meko settings",
+     "words": 2,
+     "chars": 13,
+     "lines": 1,
+     "size": 20,
+     "vw": 5.1,
+     "font": "Public Sans",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.15,
+     "top": 42,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "Meko settings",
+     "words": 2,
+     "lines": 1,
+     "size": 20,
+     "font": "Public Sans"
+    },
+    "headings": [],
+    "headingSummary": {
+     "count": 0,
+     "maxLines": 0,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Public Sans",
+       "share": 0.97,
+       "mono": false
+      },
+      {
+       "family": "JetBrains Mono",
+       "share": 0.03,
+       "mono": true
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      11,
+      12,
+      13,
+      20
+     ],
+     "sizeCount": 4,
+     "notLoaded": [],
+     "body": {
+      "font": "Public Sans",
+      "size": 13,
+      "leading": 1.54,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 5
+     },
+     "measureChars": 49,
+     "max": {
+      "size": 20,
+      "vw": 5.1,
+      "font": "Public Sans",
+      "text": "Meko settings"
+     },
+     "monoShare": 0.03,
+     "monoProseShare": 0.03,
+     "monoFamilies": [
+      "JetBrains Mono"
+     ],
+     "monoSamples": [
+      "les_041",
+      "les_seed_02",
+      "les_failed_03",
+      "les_review_04"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.04,
+     "centerShare": 0,
+     "smallText": 7
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f4f7fb",
+     "bodyBgHsl": {
+      "h": 214,
+      "s": 0.47,
+      "l": 0.97
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 306,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#5a6b85",
+       "share": 0.63
+      },
+      {
+       "color": "#0f2440",
+       "share": 0.34
+      },
+      {
+       "color": "#8f2318",
+       "share": 0.01
+      },
+      {
+       "color": "#10583f",
+       "share": 0.01
+      },
+      {
+       "color": "#33475f",
+       "share": 0.01
+      }
+     ],
+     "button": null,
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 0,
+     "inHero": 0,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 9,
+     "hairlineSamples": [
+      "aside.sidebar 390px",
+      "div.row 316px",
+      "div.row 316px",
+      "div.row 316px",
+      "div.row 316px"
+     ],
+     "outlinedBoxes": 4,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 4,
+     "boxRadius": 6,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": true,
+     "height": 62,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "jetbrains mono",
+     "public sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 1828,
+    "margins": {
+     "left": 16,
+     "right": 37
+    },
+    "sections": [
+     {
+      "sel": "section.panel",
+      "tag": "section",
+      "top": 155,
+      "height": 127,
+      "words": 25,
+      "media": 0,
+      "middle": 31,
+      "heading": null,
+      "left": 37,
+      "right": 37,
+      "textLeft": 37,
+      "textRight": 112,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.grid.top",
+      "tag": "div",
+      "top": 306,
+      "height": 954,
+      "words": 154,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "What this switch changes",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 37,
+      "right": 39,
+      "textLeft": 37,
+      "textRight": 39,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.panel",
+      "tag": "section",
+      "top": 1284,
+      "height": 466,
+      "words": 53,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "What memory holds right now",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 37,
+      "right": 37,
+      "textLeft": 37,
+      "textRight": 37,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Meko settings",
+      "size": 20,
+      "top": 42,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 37,
+      "n": 3
+     },
+     {
+      "x": 16,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 4,
+    "bodySize": 13,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "dark": false,
+    "ground": "#f4f7fb",
+    "sidebar": null,
+    "topbar": null,
+    "canvas": {
+     "left": 16,
+     "right": -207
+    },
+    "hero": {
+     "text": "Meko settings",
+     "words": 2,
+     "chars": 13,
+     "lines": 1,
+     "size": 20,
+     "vw": 5.1,
+     "font": "Public Sans",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.15,
+     "top": 42,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 4,
+     "firstScreen": 3,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 4,
+     "radii": [
+      [
+       6,
+       4
+      ]
+     ],
+     "heavyBorders": 0,
+     "borderSamples": [],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 8,
+     "leftAligned": 0,
+     "figures": 0,
+     "tabularShare": null,
+     "kpiMax": null
+    },
+    "rows": {
+     "count": 4,
+     "median": 63
+    },
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0.14,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      11,
+      12,
+      13,
+      20
+     ]
+    },
+    "title": {
+     "text": "Meko settings",
+     "size": 20,
+     "top": 42
+    },
+    "colourShare": 0.001
+   },
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "dev-server",
+   "width": 1440,
+   "message": "This page is served by a development server (Vite, webpack or Next in dev mode).",
+   "fix": "Run the last gate on the production build too (vite build && vite preview, next build && next start, or the built index.html): minifiers and bundlers change the CSS a visitor receives.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/Users/shubham.jindal/Downloads/HackCBS_Person3_Frontend 2/.taste-skill/after/meko/desktop-fold.jpg",
+   "pages": [
+    "/Users/shubham.jindal/Downloads/HackCBS_Person3_Frontend 2/.taste-skill/after/meko/desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/Users/shubham.jindal/Downloads/HackCBS_Person3_Frontend 2/.taste-skill/after/meko/tablet-fold.jpg",
+   "pages": [
+    "/Users/shubham.jindal/Downloads/HackCBS_Person3_Frontend 2/.taste-skill/after/meko/tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/Users/shubham.jindal/Downloads/HackCBS_Person3_Frontend 2/.taste-skill/after/meko/mobile-fold.jpg",
+   "pages": [
+    "/Users/shubham.jindal/Downloads/HackCBS_Person3_Frontend 2/.taste-skill/after/meko/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

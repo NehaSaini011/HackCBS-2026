@@ -1,0 +1,1452 @@
+{
+ "url": "http://localhost:4173/__inspect.html?as=engineer&to=/incident/inc_12",
+ "at": "2026-10-31T20:48:32.005Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 2,
+   "filled": [
+    0.68,
+    0.8
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 1331,
+     "screens": 1.5,
+     "words": 310,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 8,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Missing index after a release",
+     "words": 5,
+     "chars": 29,
+     "lines": 1,
+     "size": 26,
+     "vw": 1.8,
+     "font": "JetBrains Mono",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.15,
+     "top": 58,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "Missing index after a release",
+     "words": 5,
+     "lines": 1,
+     "size": 26,
+     "font": "JetBrains Mono"
+    },
+    "headings": [],
+    "headingSummary": {
+     "count": 0,
+     "maxLines": 0,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "JetBrains Mono",
+       "share": 1,
+       "mono": true
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      12,
+      13,
+      20,
+      26
+     ],
+     "sizeCount": 4,
+     "notLoaded": [],
+     "body": {
+      "font": "JetBrains Mono",
+      "size": 13,
+      "leading": 1.54,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8
+     },
+     "measureChars": 74,
+     "max": {
+      "size": 26,
+      "vw": 1.8,
+      "font": "JetBrains Mono",
+      "text": "Missing index after a release"
+     },
+     "monoShare": 1,
+     "monoProseShare": 0.8,
+     "monoFamilies": [
+      "JetBrains Mono"
+     ],
+     "monoSamples": [
+      "Incident · Tealbox",
+      "inc_12",
+      "Missing index after a release",
+      "The candidate fix was measured as simula",
+      "awaiting approval",
+      "How this incident got here"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.04,
+     "centerShare": 0.01,
+     "smallText": 10
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#050c1c",
+     "bodyBgHsl": {
+      "h": 222,
+      "s": 0.7,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0b1730",
+       "top": 558,
+       "hsl": {
+        "h": 221,
+        "s": 0.63,
+        "l": 0.12
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#93a7c9",
+       "share": 0.71
+      },
+      {
+       "color": "#eef3fb",
+       "share": 0.21
+      },
+      {
+       "color": "#4fa6de",
+       "share": 0.04
+      },
+      {
+       "color": "#c2d0e8",
+       "share": 0.02
+      },
+      {
+       "color": "#06101f",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#06101f"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": "pill",
+     "height": 34,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 2,
+     "upper": 0,
+     "heroLabels": [
+      "Approve and apply the fix",
+      "Reject"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 6,
+     "hairlineSamples": [
+      "aside.sidebar 50px",
+      "div.evidence 722px",
+      "div.evidence 722px",
+      "div.evidence 722px",
+      "p.page-foot 722px"
+     ],
+     "outlinedBoxes": 7,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 7,
+     "boxRadius": 6,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 786
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 558
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 900,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "jetbrains mono"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 1331,
+    "margins": {
+     "left": 82,
+     "right": 53
+    },
+    "sections": [
+     {
+      "sel": "section.panel",
+      "tag": "section",
+      "top": 158,
+      "height": 145,
+      "words": 19,
+      "media": 0,
+      "middle": 199,
+      "heading": {
+       "text": "How this incident got here",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 103,
+      "right": 53,
+      "textLeft": 103,
+      "textRight": 53,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.panel",
+      "tag": "section",
+      "top": 327,
+      "height": 207,
+      "words": 49,
+      "media": 0,
+      "middle": 88,
+      "heading": {
+       "text": "Fix and proof",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 103,
+      "right": 53,
+      "textLeft": 103,
+      "textRight": 53,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.grid.top",
+      "tag": "div",
+      "top": 558,
+      "height": 741,
+      "words": 264,
+      "media": 0,
+      "middle": 66,
+      "heading": {
+       "text": "Diagnosis",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 103,
+      "right": 53,
+      "textLeft": 103,
+      "textRight": 58,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Missing index after a release",
+      "size": 26,
+      "top": 58,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 103,
+      "n": 4
+     },
+     {
+      "x": 891,
+      "n": 3
+     },
+     {
+      "x": 82,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 8,
+    "bodySize": 13,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0.04,
+    "voidBox": {
+     "x": 300,
+     "y": 300,
+     "w": 960,
+     "h": 60
+    }
+   },
+   "app": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "dark": true,
+    "ground": "#050c1c",
+    "sidebar": {
+     "w": 50,
+     "tag": "aside",
+     "links": 3,
+     "share": 0.03
+    },
+    "topbar": null,
+    "canvas": {
+     "left": 32,
+     "right": 53
+    },
+    "hero": {
+     "text": "Missing index after a release",
+     "words": 5,
+     "chars": 29,
+     "lines": 1,
+     "size": 26,
+     "vw": 1.8,
+     "font": "JetBrains Mono",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.15,
+     "top": 58,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 7,
+     "firstScreen": 5,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 11,
+     "radii": [
+      [
+       6,
+       7
+      ],
+      [
+       0,
+       4
+      ]
+     ],
+     "heavyBorders": 0,
+     "borderSamples": [],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 0,
+     "leftAligned": 0,
+     "figures": 2,
+     "tabularShare": 1,
+     "kpiMax": 12
+    },
+    "rows": null,
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0.36,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      12,
+      13,
+      20,
+      26
+     ]
+    },
+    "title": {
+     "text": "Missing index after a release",
+     "size": 26,
+     "top": 58
+    },
+    "colourShare": 0.006
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 3,
+   "filled": [
+    0.84,
+    0.89,
+    0.77
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 2216,
+     "screens": 2.2,
+     "words": 292,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 8,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Missing index after a release",
+     "words": 5,
+     "chars": 29,
+     "lines": 1,
+     "size": 20,
+     "vw": 2.6,
+     "font": "JetBrains Mono",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.15,
+     "top": 42,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "Missing index after a release",
+     "words": 5,
+     "lines": 1,
+     "size": 20,
+     "font": "JetBrains Mono"
+    },
+    "headings": [],
+    "headingSummary": {
+     "count": 0,
+     "maxLines": 0,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "JetBrains Mono",
+       "share": 1,
+       "mono": true
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      11,
+      12,
+      13,
+      20
+     ],
+     "sizeCount": 4,
+     "notLoaded": [],
+     "body": {
+      "font": "JetBrains Mono",
+      "size": 13,
+      "leading": 1.54,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8
+     },
+     "measureChars": 74,
+     "max": {
+      "size": 20,
+      "vw": 2.6,
+      "font": "JetBrains Mono",
+      "text": "Missing index after a release"
+     },
+     "monoShare": 1,
+     "monoProseShare": 0.79,
+     "monoFamilies": [
+      "JetBrains Mono"
+     ],
+     "monoSamples": [
+      "Findings",
+      "Lessons",
+      "Incident · Tealbox",
+      "inc_12",
+      "Missing index after a release",
+      "The candidate fix was measured as simula"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.04,
+     "centerShare": 0.02,
+     "smallText": 6
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#050c1c",
+     "bodyBgHsl": {
+      "h": 222,
+      "s": 0.7,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0b1730",
+       "top": 432,
+       "hsl": {
+        "h": 221,
+        "s": 0.63,
+        "l": 0.12
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#93a7c9",
+       "share": 0.74
+      },
+      {
+       "color": "#eef3fb",
+       "share": 0.22
+      },
+      {
+       "color": "#c2d0e8",
+       "share": 0.02
+      },
+      {
+       "color": "#06101f",
+       "share": 0.01
+      },
+      {
+       "color": "#e0a94a",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#06101f"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 0,
+     "radius": "pill",
+     "height": 34,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 2,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 6,
+     "hairlineSamples": [
+      "aside.sidebar 768px",
+      "div.evidence 694px",
+      "div.evidence 694px",
+      "div.evidence 694px",
+      "p.page-foot 694px"
+     ],
+     "outlinedBoxes": 7,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 7,
+     "boxRadius": 6,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": true,
+     "height": 62,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "jetbrains mono"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 2216,
+    "margins": {
+     "left": 16,
+     "right": 37
+    },
+    "sections": [
+     {
+      "sel": "section.panel",
+      "tag": "section",
+      "top": 135,
+      "height": 273,
+      "words": 19,
+      "media": 0,
+      "middle": 142,
+      "heading": {
+       "text": "How this incident got here",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 37,
+      "right": 37,
+      "textLeft": 37,
+      "textRight": 37,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.panel",
+      "tag": "section",
+      "top": 432,
+      "height": 325,
+      "words": 49,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Fix and proof",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 37,
+      "right": 37,
+      "textLeft": 37,
+      "textRight": 37,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.grid.top",
+      "tag": "div",
+      "top": 781,
+      "height": 1357,
+      "words": 244,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Diagnosis",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 37,
+      "right": 37,
+      "textLeft": 37,
+      "textRight": 37,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Missing index after a release",
+      "size": 20,
+      "top": 42,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 37,
+      "n": 7
+     },
+     {
+      "x": 16,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 8,
+    "bodySize": 13,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "dark": true,
+    "ground": "#050c1c",
+    "sidebar": null,
+    "topbar": null,
+    "canvas": {
+     "left": 16,
+     "right": 37
+    },
+    "hero": {
+     "text": "Missing index after a release",
+     "words": 5,
+     "chars": 29,
+     "lines": 1,
+     "size": 20,
+     "vw": 2.6,
+     "font": "JetBrains Mono",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.15,
+     "top": 42,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 7,
+     "firstScreen": 3,
+     "ragged": [],
+     "voids": [
+      {
+       "gap": 42,
+       "at": 586,
+       "panel": "Fix and proof"
+      }
+     ]
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 11,
+     "radii": [
+      [
+       6,
+       7
+      ],
+      [
+       0,
+       3
+      ],
+      [
+       4,
+       1
+      ]
+     ],
+     "heavyBorders": 0,
+     "borderSamples": [],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 0,
+     "leftAligned": 0,
+     "figures": 2,
+     "tabularShare": 1,
+     "kpiMax": 12
+    },
+    "rows": null,
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0.35,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      11,
+      12,
+      13,
+      20
+     ]
+    },
+    "title": {
+     "text": "Missing index after a release",
+     "size": 20,
+     "top": 42
+    },
+    "colourShare": 0.003
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.75,
+    0.88,
+    0.77,
+    0.88
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 2728,
+     "screens": 3.2,
+     "words": 292,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 8,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Missing index after a release",
+     "words": 5,
+     "chars": 29,
+     "lines": 1,
+     "size": 20,
+     "vw": 5.1,
+     "font": "JetBrains Mono",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.15,
+     "top": 42,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "Missing index after a release",
+     "words": 5,
+     "lines": 1,
+     "size": 20,
+     "font": "JetBrains Mono"
+    },
+    "headings": [],
+    "headingSummary": {
+     "count": 0,
+     "maxLines": 0,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "JetBrains Mono",
+       "share": 1,
+       "mono": true
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      11,
+      12,
+      13,
+      20
+     ],
+     "sizeCount": 4,
+     "notLoaded": [],
+     "body": {
+      "font": "JetBrains Mono",
+      "size": 13,
+      "leading": 1.54,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8
+     },
+     "measureChars": 49,
+     "max": {
+      "size": 20,
+      "vw": 5.1,
+      "font": "JetBrains Mono",
+      "text": "Missing index after a release"
+     },
+     "monoShare": 1,
+     "monoProseShare": 0.79,
+     "monoFamilies": [
+      "JetBrains Mono"
+     ],
+     "monoSamples": [
+      "Findings",
+      "Lessons",
+      "Incident · Tealbox",
+      "inc_12",
+      "Missing index after a release",
+      "The candidate fix was measured as simula"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.04,
+     "centerShare": 0.02,
+     "smallText": 6
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#050c1c",
+     "bodyBgHsl": {
+      "h": 222,
+      "s": 0.7,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0b1730",
+       "top": 189,
+       "hsl": {
+        "h": 221,
+        "s": 0.63,
+        "l": 0.12
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#93a7c9",
+       "share": 0.74
+      },
+      {
+       "color": "#eef3fb",
+       "share": 0.22
+      },
+      {
+       "color": "#c2d0e8",
+       "share": 0.02
+      },
+      {
+       "color": "#06101f",
+       "share": 0.01
+      },
+      {
+       "color": "#e0a94a",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#06101f"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 0,
+     "radius": "pill",
+     "height": 34,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 2,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 6,
+     "hairlineSamples": [
+      "aside.sidebar 390px",
+      "div.evidence 316px",
+      "div.evidence 316px",
+      "div.evidence 316px",
+      "p.page-foot 316px"
+     ],
+     "outlinedBoxes": 11,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 7,
+     "boxRadius": 6,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": true,
+     "height": 62,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "jetbrains mono"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 2728,
+    "margins": {
+     "left": 16,
+     "right": 37
+    },
+    "sections": [
+     {
+      "sel": "div.title-row",
+      "tag": "div",
+      "top": 16,
+      "height": 149,
+      "words": 31,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Missing index after a release",
+       "size": 20,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 38,
+      "textLeft": 16,
+      "textRight": 38,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.panel",
+      "tag": "section",
+      "top": 189,
+      "height": 299,
+      "words": 19,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "How this incident got here",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 37,
+      "right": 61,
+      "textLeft": 37,
+      "textRight": 61,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.panel",
+      "tag": "section",
+      "top": 512,
+      "height": 385,
+      "words": 49,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Fix and proof",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 37,
+      "right": 37,
+      "textLeft": 37,
+      "textRight": 37,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.col-7",
+      "tag": "div",
+      "top": 921,
+      "height": 873,
+      "words": 160,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Diagnosis",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 37,
+      "right": 37,
+      "textLeft": 37,
+      "textRight": 37,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.col-5",
+      "tag": "div",
+      "top": 1818,
+      "height": 832,
+      "words": 84,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Your decision",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 37,
+      "right": 37,
+      "textLeft": 37,
+      "textRight": 46,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Missing index after a release",
+      "size": 20,
+      "top": 42,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 37,
+      "n": 7
+     },
+     {
+      "x": 16,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 8,
+    "bodySize": 13,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "dark": true,
+    "ground": "#050c1c",
+    "sidebar": null,
+    "topbar": null,
+    "canvas": {
+     "left": 16,
+     "right": 37
+    },
+    "hero": {
+     "text": "Missing index after a release",
+     "words": 5,
+     "chars": 29,
+     "lines": 1,
+     "size": 20,
+     "vw": 5.1,
+     "font": "JetBrains Mono",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.15,
+     "top": 42,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 7,
+     "firstScreen": 2,
+     "ragged": [],
+     "voids": [
+      {
+       "gap": 42,
+       "at": 686,
+       "panel": "Fix and proof"
+      }
+     ]
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 14,
+     "radii": [
+      [
+       6,
+       7
+      ],
+      [
+       0,
+       5
+      ],
+      [
+       4,
+       2
+      ]
+     ],
+     "heavyBorders": 0,
+     "borderSamples": [],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 0,
+     "leftAligned": 0,
+     "figures": 2,
+     "tabularShare": 1,
+     "kpiMax": 12
+    },
+    "rows": null,
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0.35,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      11,
+      12,
+      13,
+      20
+     ]
+    },
+    "title": {
+     "text": "Missing index after a release",
+     "size": 20,
+     "top": 42
+    },
+    "colourShare": 0.002
+   },
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "font-not-dealt",
+   "width": 1440,
+   "message": "The sheet dealt Public Sans, but the page renders JetBrains Mono.",
+   "fix": "Load the dealt face (the link on the sheet) and put it first in font-family. A build that falls back to a default face lands on the default look."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/Users/shubham.jindal/Downloads/HackCBS_Person3_Frontend 2/.taste-skill/after/incident/desktop-fold.jpg",
+   "pages": [
+    "/Users/shubham.jindal/Downloads/HackCBS_Person3_Frontend 2/.taste-skill/after/incident/desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/Users/shubham.jindal/Downloads/HackCBS_Person3_Frontend 2/.taste-skill/after/incident/tablet-fold.jpg",
+   "pages": [
+    "/Users/shubham.jindal/Downloads/HackCBS_Person3_Frontend 2/.taste-skill/after/incident/tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/Users/shubham.jindal/Downloads/HackCBS_Person3_Frontend 2/.taste-skill/after/incident/mobile-fold.jpg",
+   "pages": [
+    "/Users/shubham.jindal/Downloads/HackCBS_Person3_Frontend 2/.taste-skill/after/incident/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

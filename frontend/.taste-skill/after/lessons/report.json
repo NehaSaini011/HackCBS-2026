@@ -1,0 +1,1256 @@
+{
+ "url": "http://localhost:4173/__inspect.html?as=engineer&to=/lessons",
+ "at": "2026-10-31T20:49:01.156Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 2,
+   "filled": [
+    0.66,
+    0.7
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 1011,
+     "screens": 1.1,
+     "words": 363,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 4,
+     "sections": 0,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Lesson library",
+     "words": 2,
+     "chars": 14,
+     "lines": 1,
+     "size": 26,
+     "vw": 1.8,
+     "font": "JetBrains Mono",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.15,
+     "top": 58,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "Lesson library",
+     "words": 2,
+     "lines": 1,
+     "size": 26,
+     "font": "JetBrains Mono"
+    },
+    "headings": [],
+    "headingSummary": {
+     "count": 0,
+     "maxLines": 0,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "JetBrains Mono",
+       "share": 1,
+       "mono": true
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      12,
+      13,
+      20,
+      26
+     ],
+     "sizeCount": 4,
+     "notLoaded": [],
+     "body": {
+      "font": "JetBrains Mono",
+      "size": 13,
+      "leading": 1.54,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8
+     },
+     "measureChars": 82,
+     "max": {
+      "size": 26,
+      "vw": 1.8,
+      "font": "JetBrains Mono",
+      "text": "Lesson library"
+     },
+     "monoShare": 1,
+     "monoProseShare": 1,
+     "monoFamilies": [
+      "JetBrains Mono"
+     ],
+     "monoSamples": [
+      "Shared knowledge · every company",
+      "Lesson library",
+      "1 of 4 lessons has been proved on a comp",
+      "All",
+      "4",
+      "Proven"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.03,
+     "centerShare": 0.02,
+     "smallText": 5
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#050c1c",
+     "bodyBgHsl": {
+      "h": 222,
+      "s": 0.7,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0b1730",
+       "top": 223,
+       "hsl": {
+        "h": 221,
+        "s": 0.63,
+        "l": 0.12
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#93a7c9",
+       "share": 0.45
+      },
+      {
+       "color": "#eef3fb",
+       "share": 0.45
+      },
+      {
+       "color": "#e0a94a",
+       "share": 0.07
+      },
+      {
+       "color": "#ef8fa2",
+       "share": 0.02
+      },
+      {
+       "color": "#5fd3ab",
+       "share": 0.01
+      }
+     ],
+     "button": null,
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 0,
+     "inHero": 0,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 12,
+     "hairlineSamples": [
+      "aside.sidebar 50px",
+      "div.tabs 1326px",
+      "div.row.wrap 722px",
+      "div.row.wrap 722px",
+      "div.row.wrap 722px"
+     ],
+     "outlinedBoxes": 2,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 2,
+     "boxRadius": 6,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 380
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 900,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "jetbrains mono"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 1011,
+    "margins": {
+     "left": 82,
+     "right": 64
+    },
+    "sections": [],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Lesson library",
+      "size": 26,
+      "top": 58,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 891,
+      "n": 2
+     },
+     {
+      "x": 82,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 3,
+    "bodySize": 13,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.07,
+    "voidBox": {
+     "x": 660,
+     "y": 120,
+     "w": 780,
+     "h": 120
+    }
+   },
+   "app": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "dark": true,
+    "ground": "#050c1c",
+    "sidebar": {
+     "w": 50,
+     "tag": "aside",
+     "links": 3,
+     "share": 0.03
+    },
+    "topbar": null,
+    "canvas": {
+     "left": 32,
+     "right": 61
+    },
+    "hero": {
+     "text": "Lesson library",
+     "words": 2,
+     "chars": 14,
+     "lines": 1,
+     "size": 26,
+     "vw": 1.8,
+     "font": "JetBrains Mono",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.15,
+     "top": 58,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 2,
+     "firstScreen": 2,
+     "ragged": [
+      {
+       "diff": 109,
+       "top": 223
+      }
+     ],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 8,
+     "radii": [
+      [
+       0,
+       6
+      ],
+      [
+       6,
+       2
+      ]
+     ],
+     "heavyBorders": 0,
+     "borderSamples": [],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 0,
+     "leftAligned": 0,
+     "figures": 0,
+     "tabularShare": null,
+     "kpiMax": null
+    },
+    "rows": null,
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0.07,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      12,
+      13,
+      20,
+      26
+     ]
+    },
+    "title": {
+     "text": "Lesson library",
+     "size": 26,
+     "top": 58
+    },
+    "colourShare": 0.007
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 2,
+   "filled": [
+    0.76,
+    0.89
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 1850,
+     "screens": 1.8,
+     "words": 365,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 4,
+     "sections": 0,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Lesson library",
+     "words": 2,
+     "chars": 14,
+     "lines": 1,
+     "size": 20,
+     "vw": 2.6,
+     "font": "JetBrains Mono",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.15,
+     "top": 42,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "Lesson library",
+     "words": 2,
+     "lines": 1,
+     "size": 20,
+     "font": "JetBrains Mono"
+    },
+    "headings": [],
+    "headingSummary": {
+     "count": 0,
+     "maxLines": 0,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "JetBrains Mono",
+       "share": 1,
+       "mono": true
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      11,
+      12,
+      13,
+      20
+     ],
+     "sizeCount": 4,
+     "notLoaded": [],
+     "body": {
+      "font": "JetBrains Mono",
+      "size": 13,
+      "leading": 1.54,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8
+     },
+     "measureChars": 82,
+     "max": {
+      "size": 20,
+      "vw": 2.6,
+      "font": "JetBrains Mono",
+      "text": "Lesson library"
+     },
+     "monoShare": 1,
+     "monoProseShare": 1,
+     "monoFamilies": [
+      "JetBrains Mono"
+     ],
+     "monoSamples": [
+      "Findings",
+      "Lessons",
+      "Shared knowledge · every company",
+      "Lesson library",
+      "1 of 4 lessons has been proved on a comp",
+      "All"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.03,
+     "centerShare": 0.02,
+     "smallText": 5
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#050c1c",
+     "bodyBgHsl": {
+      "h": 222,
+      "s": 0.7,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0b1730",
+       "top": 200,
+       "hsl": {
+        "h": 221,
+        "s": 0.63,
+        "l": 0.12
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#93a7c9",
+       "share": 0.45
+      },
+      {
+       "color": "#eef3fb",
+       "share": 0.45
+      },
+      {
+       "color": "#e0a94a",
+       "share": 0.07
+      },
+      {
+       "color": "#ef8fa2",
+       "share": 0.02
+      },
+      {
+       "color": "#5fd3ab",
+       "share": 0.01
+      }
+     ],
+     "button": null,
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 0,
+     "inHero": 0,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 12,
+     "hairlineSamples": [
+      "aside.sidebar 768px",
+      "div.tabs 736px",
+      "div.row.wrap 694px",
+      "div.row.wrap 694px",
+      "div.row.wrap 694px"
+     ],
+     "outlinedBoxes": 2,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 2,
+     "boxRadius": 6,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": true,
+     "height": 62,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "jetbrains mono"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 1850,
+    "margins": {
+     "left": 16,
+     "right": 68
+    },
+    "sections": [
+     {
+      "sel": "div.panel.col-7",
+      "tag": "div",
+      "top": 200,
+      "height": 939,
+      "words": 159,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 37,
+      "right": 37,
+      "textLeft": 37,
+      "textRight": 37,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.panel.col-5",
+      "tag": "div",
+      "top": 1163,
+      "height": 609,
+      "words": 157,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "What each status means",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 37,
+      "right": 60,
+      "textLeft": 37,
+      "textRight": 60,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Lesson library",
+      "size": 20,
+      "top": 42,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 37,
+      "n": 2
+     },
+     {
+      "x": 16,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 3,
+    "bodySize": 13,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "dark": true,
+    "ground": "#050c1c",
+    "sidebar": null,
+    "topbar": null,
+    "canvas": {
+     "left": 16,
+     "right": 60
+    },
+    "hero": {
+     "text": "Lesson library",
+     "words": 2,
+     "chars": 14,
+     "lines": 1,
+     "size": 20,
+     "vw": 2.6,
+     "font": "JetBrains Mono",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.15,
+     "top": 42,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 2,
+     "firstScreen": 1,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 5,
+     "radii": [
+      [
+       0,
+       3
+      ],
+      [
+       6,
+       2
+      ]
+     ],
+     "heavyBorders": 0,
+     "borderSamples": [],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 0,
+     "leftAligned": 0,
+     "figures": 0,
+     "tabularShare": null,
+     "kpiMax": null
+    },
+    "rows": null,
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0.08,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      11,
+      12,
+      13,
+      20
+     ]
+    },
+    "title": {
+     "text": "Lesson library",
+     "size": 20,
+     "top": 42
+    },
+    "colourShare": 0.005
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.73,
+    0.86,
+    0.82,
+    0.82
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 417,
+     "h": 903
+    },
+    "page": {
+     "height": 2575,
+     "screens": 2.9,
+     "words": 365,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 4,
+     "sections": 0,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Lesson library",
+     "words": 2,
+     "chars": 14,
+     "lines": 1,
+     "size": 20,
+     "vw": 4.8,
+     "font": "JetBrains Mono",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.15,
+     "top": 42,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "Lesson library",
+     "words": 2,
+     "lines": 1,
+     "size": 20,
+     "font": "JetBrains Mono"
+    },
+    "headings": [],
+    "headingSummary": {
+     "count": 0,
+     "maxLines": 0,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "JetBrains Mono",
+       "share": 1,
+       "mono": true
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      11,
+      12,
+      13,
+      20
+     ],
+     "sizeCount": 4,
+     "notLoaded": [],
+     "body": {
+      "font": "JetBrains Mono",
+      "size": 13,
+      "leading": 1.54,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8
+     },
+     "measureChars": 55,
+     "max": {
+      "size": 20,
+      "vw": 4.8,
+      "font": "JetBrains Mono",
+      "text": "Lesson library"
+     },
+     "monoShare": 1,
+     "monoProseShare": 1,
+     "monoFamilies": [
+      "JetBrains Mono"
+     ],
+     "monoSamples": [
+      "Findings",
+      "Lessons",
+      "Shared knowledge · every company",
+      "Lesson library",
+      "1 of 4 lessons has been proved on a comp",
+      "All"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.03,
+     "centerShare": 0.02,
+     "smallText": 5
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#050c1c",
+     "bodyBgHsl": {
+      "h": 222,
+      "s": 0.7,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0b1730",
+       "top": 240,
+       "hsl": {
+        "h": 221,
+        "s": 0.63,
+        "l": 0.12
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#93a7c9",
+       "share": 0.45
+      },
+      {
+       "color": "#eef3fb",
+       "share": 0.45
+      },
+      {
+       "color": "#e0a94a",
+       "share": 0.07
+      },
+      {
+       "color": "#ef8fa2",
+       "share": 0.02
+      },
+      {
+       "color": "#5fd3ab",
+       "share": 0.01
+      }
+     ],
+     "button": null,
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 0,
+     "inHero": 0,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 12,
+     "hairlineSamples": [
+      "aside.sidebar 417px",
+      "div.tabs 358px",
+      "div.row.wrap 316px",
+      "div.row.wrap 316px",
+      "div.row.wrap 316px"
+     ],
+     "outlinedBoxes": 2,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 2,
+     "boxRadius": 6,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 515
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 1703
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": true,
+     "height": 62,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "jetbrains mono"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 417,
+     "h": 903
+    },
+    "pageH": 2575,
+    "margins": {
+     "left": 16,
+     "right": 50
+    },
+    "sections": [
+     {
+      "sel": "div.panel.col-7",
+      "tag": "div",
+      "top": 240,
+      "height": 1251,
+      "words": 159,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 37,
+      "right": 68,
+      "textLeft": 37,
+      "textRight": 68,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.panel.col-5",
+      "tag": "div",
+      "top": 1515,
+      "height": 982,
+      "words": 157,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "What each status means",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 37,
+      "right": 67,
+      "textLeft": 37,
+      "textRight": 67,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Lesson library",
+      "size": 20,
+      "top": 42,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [
+     {
+      "text": "Failed",
+      "side": "right",
+      "px": 16
+     }
+    ],
+    "edges": [
+     {
+      "x": 37,
+      "n": 2
+     },
+     {
+      "x": 16,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 3,
+    "bodySize": 13,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": {
+    "viewport": {
+     "w": 417,
+     "h": 903
+    },
+    "dark": true,
+    "ground": "#050c1c",
+    "sidebar": null,
+    "topbar": null,
+    "canvas": {
+     "left": 16,
+     "right": 16
+    },
+    "hero": {
+     "text": "Lesson library",
+     "words": 2,
+     "chars": 14,
+     "lines": 1,
+     "size": 20,
+     "vw": 4.8,
+     "font": "JetBrains Mono",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.15,
+     "top": 42,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 2,
+     "firstScreen": 1,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 11,
+     "radii": [
+      [
+       0,
+       9
+      ],
+      [
+       6,
+       2
+      ]
+     ],
+     "heavyBorders": 0,
+     "borderSamples": [],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 0,
+     "leftAligned": 0,
+     "figures": 0,
+     "tabularShare": null,
+     "kpiMax": null
+    },
+    "rows": null,
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0.08,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      11,
+      12,
+      13,
+      20
+     ]
+    },
+    "title": {
+     "text": "Lesson library",
+     "size": 20,
+     "top": 42
+    },
+    "colourShare": 0.003
+   },
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "font-not-dealt",
+   "width": 1440,
+   "message": "The sheet dealt Public Sans, but the page renders JetBrains Mono.",
+   "fix": "Load the dealt face (the link on the sheet) and put it first in font-family. A build that falls back to a default face lands on the default look."
+  },
+  {
+   "level": "WARN",
+   "id": "ragged-row",
+   "width": 1440,
+   "message": "1 pair(s) of cards in one row end at different heights (by 109px).",
+   "fix": "Cards that share a row share a bottom edge: balance them by their content (the same number of rows, a block of similar height beside it), or stack them. In testing, ragged rows were marked down every time."
+  },
+  {
+   "level": "WARN",
+   "id": "edge-text",
+   "width": 390,
+   "message": "1 text block(s) sit 12–15px from the phone's edge: \"Failed\" (16px)",
+   "fix": "The page margin is 16–20px on a phone; the header and the corner labels sit on it too."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/Users/shubham.jindal/Downloads/HackCBS_Person3_Frontend 2/.taste-skill/after/lessons/desktop-fold.jpg",
+   "pages": [
+    "/Users/shubham.jindal/Downloads/HackCBS_Person3_Frontend 2/.taste-skill/after/lessons/desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/Users/shubham.jindal/Downloads/HackCBS_Person3_Frontend 2/.taste-skill/after/lessons/tablet-fold.jpg",
+   "pages": [
+    "/Users/shubham.jindal/Downloads/HackCBS_Person3_Frontend 2/.taste-skill/after/lessons/tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/Users/shubham.jindal/Downloads/HackCBS_Person3_Frontend 2/.taste-skill/after/lessons/mobile-fold.jpg",
+   "pages": [
+    "/Users/shubham.jindal/Downloads/HackCBS_Person3_Frontend 2/.taste-skill/after/lessons/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

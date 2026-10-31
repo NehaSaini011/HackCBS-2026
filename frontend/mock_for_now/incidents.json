@@ -1,0 +1,299 @@
+{
+  "inc_12": {
+    "id": "inc_12",
+    "company": {
+      "id": "c_tealbox",
+      "name": "Tealbox"
+    },
+    "finding_ids": [
+      "f_815"
+    ],
+    "status": "awaiting_approval",
+    "diagnosis": {
+      "cause_class": "MISSING_INDEX",
+      "explanation": "The order-history query became slow after release v2.3. The query plan shows a sequential scan on orders; no lock waits were observed. Read-only checks only.",
+      "evidence": [
+        {
+          "check": "slow_queries",
+          "result": "Order-history p95 rose from 3 ms to 1,900 ms after v2.3",
+          "query": "SELECT order_id FROM orders WHERE customer_id = $1 ORDER BY created_at DESC LIMIT 20;",
+          "status": "fail"
+        },
+        {
+          "check": "query_plan",
+          "result": "Seq Scan on orders (about 2,400,000 rows); Index Scan expected",
+          "query": "EXPLAIN (FORMAT TEXT) SELECT order_id FROM orders WHERE customer_id = $1 ORDER BY created_at DESC LIMIT 20;",
+          "status": "fail"
+        },
+        {
+          "check": "locks",
+          "result": "No lock waits observed",
+          "query": "SELECT * FROM pg_locks WHERE NOT granted;",
+          "status": "pass"
+        },
+        {
+          "check": "release_correlation",
+          "result": "Latency rose 90 seconds after release v2.3",
+          "query": "SELECT release_version, deployed_at FROM release_events ORDER BY deployed_at DESC LIMIT 5;",
+          "status": "warn"
+        }
+      ]
+    },
+    "recalled_lesson": {
+      "id": "les_041",
+      "cause_class": "MISSING_INDEX",
+      "confirmations": 2,
+      "status": "proven",
+      "fix_shape": "index"
+    },
+    "fix": {
+      "template": "create_index",
+      "sql": "CREATE INDEX CONCURRENTLY IF NOT EXISTS idx_orders_customer_created ON orders (customer_id, created_at DESC);"
+    },
+    "proof": {
+      "method": "fake",
+      "fix_sql": "CREATE INDEX CONCURRENTLY IF NOT EXISTS idx_orders_customer_created ON orders (customer_id, created_at DESC);",
+      "before_p95_ms": 1900,
+      "after_p95_ms": 42,
+      "passed": true,
+      "error": null,
+      "fork_id": null
+    },
+    "decision": null,
+    "meko_activity": [
+      {
+        "op": "recall",
+        "text": "Shared memory matched lesson les_041 (MISSING_INDEX), 2 confirmations",
+        "at": "2026-11-01T03:13:02Z"
+      },
+      {
+        "op": "store",
+        "text": "Anonymous lesson written to company-private memory after proof",
+        "at": "2026-11-01T03:13:40Z"
+      }
+    ],
+    "timeline": {
+      "first_alert_at": "2026-11-01T03:12:30Z",
+      "diagnosed_at": "2026-11-01T03:13:05Z",
+      "proven_at": "2026-11-01T03:13:40Z",
+      "decided_at": null,
+      "resolved_at": null
+    },
+    "meko_mode": "on"
+  },
+  "inc_meko_off": {
+    "id": "inc_meko_off",
+    "company": {
+      "id": "c_tealbox",
+      "name": "Tealbox"
+    },
+    "finding_ids": [
+      "f_815"
+    ],
+    "status": "awaiting_approval",
+    "diagnosis": {
+      "cause_class": "MISSING_INDEX",
+      "explanation": "Without shared recall the agent investigated from scratch and reached the same cause class through its own read-only checks.",
+      "evidence": [
+        {
+          "check": "slow_queries",
+          "result": "Order-history p95 rose from 3 ms to 1,900 ms after v2.3",
+          "query": "SELECT order_id FROM orders WHERE customer_id = $1 ORDER BY created_at DESC LIMIT 20;",
+          "status": "fail"
+        },
+        {
+          "check": "query_plan",
+          "result": "Seq Scan on orders; Index Scan expected",
+          "query": "EXPLAIN (FORMAT TEXT) SELECT order_id FROM orders WHERE customer_id = $1 ORDER BY created_at DESC LIMIT 20;",
+          "status": "fail"
+        }
+      ]
+    },
+    "recalled_lesson": null,
+    "fix": {
+      "template": "create_index",
+      "sql": "CREATE INDEX CONCURRENTLY IF NOT EXISTS idx_orders_customer_created ON orders (customer_id, created_at DESC);"
+    },
+    "proof": {
+      "method": "fake",
+      "fix_sql": "CREATE INDEX CONCURRENTLY IF NOT EXISTS idx_orders_customer_created ON orders (customer_id, created_at DESC);",
+      "before_p95_ms": 1900,
+      "after_p95_ms": 44,
+      "passed": true,
+      "error": null,
+      "fork_id": null
+    },
+    "decision": null,
+    "meko_activity": [
+      {
+        "op": "skipped",
+        "text": "Meko is off: no shared lesson was looked up",
+        "at": "2026-11-01T03:13:02Z"
+      }
+    ],
+    "timeline": {
+      "first_alert_at": "2026-11-01T03:12:30Z",
+      "diagnosed_at": "2026-11-01T03:14:10Z",
+      "proven_at": "2026-11-01T03:15:05Z",
+      "decided_at": null,
+      "resolved_at": null
+    },
+    "meko_mode": "off"
+  },
+  "inc_proof_failed": {
+    "id": "inc_proof_failed",
+    "company": {
+      "id": "c_tealbox",
+      "name": "Tealbox"
+    },
+    "finding_ids": [
+      "f_816"
+    ],
+    "status": "proof_failed",
+    "diagnosis": {
+      "cause_class": "LOCK_CONTENTION",
+      "explanation": "The candidate fix could not improve the measured p95 on the isolated copy, so it was not proven.",
+      "evidence": [
+        {
+          "check": "locks",
+          "result": "Lock waits still present during the test window",
+          "query": "SELECT * FROM pg_locks WHERE NOT granted;",
+          "status": "fail"
+        }
+      ]
+    },
+    "recalled_lesson": null,
+    "fix": {
+      "template": "lock_timeout_migration",
+      "sql": "SET lock_timeout = '3s';"
+    },
+    "proof": {
+      "method": "fake",
+      "fix_sql": "SET lock_timeout = '3s';",
+      "before_p95_ms": 870,
+      "after_p95_ms": 810,
+      "passed": false,
+      "error": "Improvement below the agreed threshold on the isolated copy.",
+      "fork_id": null
+    },
+    "decision": null,
+    "meko_activity": [
+      {
+        "op": "error",
+        "text": "Proof did not pass; no candidate was promoted to shared memory",
+        "at": "2026-11-01T02:58:00Z"
+      }
+    ],
+    "timeline": {
+      "first_alert_at": "2026-11-01T02:50:00Z",
+      "diagnosed_at": "2026-11-01T02:53:00Z",
+      "proven_at": null,
+      "decided_at": null,
+      "resolved_at": null
+    },
+    "meko_mode": "on"
+  },
+  "inc_11": {
+    "id": "inc_11",
+    "company": {
+      "id": "c_tealbox",
+      "name": "Tealbox"
+    },
+    "finding_ids": [
+      "f_809"
+    ],
+    "status": "diagnosed",
+    "diagnosis": {
+      "cause_class": "MISSING_INDEX",
+      "explanation": "A scheduled database check suggests an index may improve the purchases lookup. Proof has not run yet.",
+      "evidence": [
+        {
+          "check": "index_recommendation",
+          "result": "Potential index improvement detected",
+          "query": "EXPLAIN SELECT purchase_id FROM purchases WHERE buyer_id = 3 ORDER BY placed_at DESC LIMIT 20;",
+          "status": "warn"
+        }
+      ]
+    },
+    "recalled_lesson": null,
+    "fix": null,
+    "proof": null,
+    "decision": null,
+    "meko_activity": [],
+    "timeline": {
+      "first_alert_at": "2026-11-01T02:41:00Z",
+      "diagnosed_at": "2026-11-01T02:42:00Z",
+      "proven_at": null,
+      "decided_at": null,
+      "resolved_at": null
+    },
+    "meko_mode": "on"
+  },
+  "inc_10": {
+    "id": "inc_10",
+    "company": {
+      "id": "c_tealbox",
+      "name": "Tealbox"
+    },
+    "finding_ids": [
+      "f_801"
+    ],
+    "status": "open",
+    "diagnosis": null,
+    "recalled_lesson": null,
+    "fix": null,
+    "proof": null,
+    "decision": null,
+    "meko_activity": [],
+    "timeline": {
+      "first_alert_at": "2026-11-01T01:20:00Z",
+      "diagnosed_at": null,
+      "proven_at": null,
+      "decided_at": null,
+      "resolved_at": null
+    },
+    "meko_mode": "on"
+  },
+  "inc_09": {
+    "id": "inc_09",
+    "company": {
+      "id": "c_tealbox",
+      "name": "Tealbox"
+    },
+    "finding_ids": [
+      "f_790"
+    ],
+    "status": "resolved",
+    "diagnosis": {
+      "cause_class": "UNKNOWN",
+      "explanation": "A base image update was applied. No active exploitation was indicated.",
+      "evidence": [
+        {
+          "check": "image_scan",
+          "result": "Update applied; no critical finding in this example",
+          "query": "",
+          "status": "pass"
+        }
+      ]
+    },
+    "recalled_lesson": null,
+    "fix": null,
+    "proof": null,
+    "decision": {
+      "approved": true,
+      "by": "priya@tealbox.demo",
+      "reason": null,
+      "at": "2026-10-31T16:04:00Z"
+    },
+    "applied": true,
+    "meko_activity": [],
+    "timeline": {
+      "first_alert_at": "2026-10-31T16:00:00Z",
+      "diagnosed_at": "2026-10-31T16:01:00Z",
+      "proven_at": null,
+      "decided_at": "2026-10-31T16:04:00Z",
+      "resolved_at": "2026-10-31T16:05:00Z"
+    },
+    "meko_mode": "on"
+  }
+}

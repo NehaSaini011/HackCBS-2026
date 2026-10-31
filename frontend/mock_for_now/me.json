@@ -1,0 +1,7 @@
+{
+  "id": "u_3",
+  "email": "priya@tealbox.demo",
+  "role": "engineer",
+  "group_id": "g_fund1",
+  "company": { "id": "c_tealbox", "name": "Tealbox" }
+}

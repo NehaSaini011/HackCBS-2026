@@ -1,0 +1,1823 @@
+{
+ "url": "http://localhost:5173/__inspect.html?as=engineer&to=/findings",
+ "at": "2026-10-31T19:39:05.613Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 2,
+   "filled": [
+    0.78,
+    0.83
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 1209,
+     "screens": 1.3,
+     "words": 272,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 11,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Findings inbox",
+     "words": 2,
+     "chars": 14,
+     "lines": 1,
+     "size": 28,
+     "vw": 1.9,
+     "font": "Manrope",
+     "weight": 800,
+     "tracking": -0.04,
+     "leading": 1.2,
+     "top": 125,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "Findings inbox",
+     "words": 2,
+     "lines": 1,
+     "size": 28,
+     "font": "Manrope"
+    },
+    "headings": [
+     {
+      "text": "Findings inbox",
+      "words": 2,
+      "chars": 14,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.036,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.26,
+      "top": 125,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "DM Sans",
+       "share": 0.95,
+       "mono": false
+      },
+      {
+       "family": "Manrope",
+       "share": 0.05,
+       "mono": false
+      },
+      {
+       "family": "DM Mono",
+       "share": 0.01,
+       "mono": true
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      16,
+      26,
+      28
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "DM Sans",
+      "size": 11,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": null
+     },
+     "measureChars": 68,
+     "max": {
+      "size": 28,
+      "vw": 1.9,
+      "font": "Manrope",
+      "text": "Findings inbox"
+     },
+     "monoShare": 0.01,
+     "monoProseShare": 0.01,
+     "monoFamilies": [
+      "DM Mono"
+     ],
+     "monoSamples": [
+      "1m 30s",
+      "15s"
+     ],
+     "microLabels": 4,
+     "microLabelShare": 0.055,
+     "microSamples": [
+      "IMMUNITY NETWORK",
+      "OPERATIONS",
+      "ENGINEER CONSOLE / OPERATIONS",
+      "OUTAGE HERD IMMUNITY · DEMO BUILD"
+     ],
+     "upperShare": 0.14,
+     "centerShare": 0.01,
+     "smallText": 42
+    },
+    "eyebrows": [
+     {
+      "text": "ENGINEER CONSOLE / OPERATIONS",
+      "above": "Findings inbox",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 9,
+      "top": 102
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0a1020",
+     "bodyBgHsl": {
+      "h": 224,
+      "s": 0.52,
+      "l": 0.08
+     },
+     "dark": true,
+     "sectionBgs": [],
+     "textColors": [
+      {
+       "color": "#8e9cb3",
+       "share": 0.16
+      },
+      {
+       "color": "#dce5f3",
+       "share": 0.15
+      },
+      {
+       "color": "#e7edf8",
+       "share": 0.09
+      },
+      {
+       "color": "#7e8da6",
+       "share": 0.08
+      },
+      {
+       "color": "#b8c4d8",
+       "share": 0.08
+      }
+     ],
+     "button": {
+      "bg": "#efefef",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.94
+      },
+      "fg": "#9caac0"
+     },
+     "lowContrast": [
+      {
+       "text": "Sign out",
+       "ratio": 2,
+       "need": 4.5,
+       "size": 12,
+       "fg": "#9caac0",
+       "bg": "#efefef"
+      },
+      {
+       "text": "OPERATIONS",
+       "ratio": 4.3,
+       "need": 4.5,
+       "size": 9,
+       "fg": "#6e7c93",
+       "bg": "#0d1524"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": 8,
+     "height": 43,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Sign out",
+      "Refresh"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 8,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.banner → linear-gradient(100deg, rgb(25, 42, 71), rgb(19, 30, 48))",
+      "div.metric → linear-gradient(145deg, rgb(19, 30, 46), rgb(16, 24, 39))",
+      "div.metric → linear-gradient(145deg, rgb(19, 30, 46), rgb(16, 24, 39))",
+      "div.metric → linear-gradient(145deg, rgb(19, 30, 46), rgb(16, 24, 39))"
+     ],
+     "gradientText": 0,
+     "hairlines": 5,
+     "hairlineSamples": [
+      "aside.sidebar 245px",
+      "header 1195px",
+      "div.panel-head 1133px",
+      "div.panel-foot 1133px",
+      "footer 1195px"
+     ],
+     "outlinedBoxes": 8,
+     "dashed": 0,
+     "blurred": 1,
+     "roundedBoxes": 8,
+     "boxRadius": 11,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 314
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": true,
+     "height": 65,
+     "floatingPill": false,
+     "blur": true
+    },
+    "fontsLoaded": [
+     "dm mono",
+     "dm sans",
+     "manrope"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 1209,
+    "margins": {
+     "left": 25,
+     "right": 44
+    },
+    "sections": [
+     {
+      "sel": "section.panel",
+      "tag": "section",
+      "top": 442,
+      "height": 511,
+      "words": 111,
+      "media": 0,
+      "middle": 159,
+      "heading": {
+       "text": "All findings",
+       "size": 13,
+       "tag": "h2"
+      },
+      "left": 291,
+      "right": 48,
+      "textLeft": 291,
+      "textRight": 48,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.columns",
+      "tag": "div",
+      "top": 972,
+      "height": 165,
+      "words": 43,
+      "media": 0,
+      "middle": 184,
+      "heading": {
+       "text": "Time to proven fix",
+       "size": 13,
+       "tag": "h2"
+      },
+      "left": 295,
+      "right": 337,
+      "textLeft": 295,
+      "textRight": 337,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Findings inbox",
+      "size": 28,
+      "top": 125,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 275,
+      "n": 1
+     },
+     {
+      "x": 328,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 2,
+    "bodySize": 11,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0.09,
+    "voidBox": {
+     "x": 0,
+     "y": 300,
+     "w": 240,
+     "h": 480
+    }
+   },
+   "app": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "dark": true,
+    "ground": "#0a1020",
+    "sidebar": {
+     "w": 245,
+     "tag": "aside",
+     "links": 3,
+     "share": 0.17
+    },
+    "topbar": {
+     "h": 65
+    },
+    "canvas": {
+     "left": 30,
+     "right": 30
+    },
+    "hero": {
+     "text": "Findings inbox",
+     "words": 2,
+     "chars": 14,
+     "lines": 1,
+     "size": 28,
+     "vw": 1.9,
+     "font": "Manrope",
+     "weight": 800,
+     "tracking": -0.04,
+     "leading": 1.2,
+     "top": 125,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 9,
+     "firstScreen": 7,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 9,
+     "radii": [
+      [
+       11,
+       7
+      ],
+      [
+       0,
+       1
+      ],
+      [
+       10,
+       1
+      ]
+     ],
+     "heavyBorders": 1,
+     "borderSamples": [
+      "#33496d on #0a1020 (2.09:1)"
+     ],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 3,
+     "leftAligned": 3,
+     "figures": 1,
+     "tabularShare": 0,
+     "kpiMax": 11
+    },
+    "rows": {
+     "count": 6,
+     "median": 60
+    },
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0.88,
+     "tiny": 76,
+     "tinySamples": [
+      "IMMUNITY NETWORK 9px",
+      "Company workspace 10px",
+      "OPERATIONS 9px",
+      "● DATA SOURCE 9px"
+     ],
+     "sizes": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      16,
+      28
+     ]
+    },
+    "title": {
+     "text": "Findings inbox",
+     "size": 28,
+     "top": 125
+    },
+    "colourShare": 0.01
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 2,
+   "filled": [
+    0.77,
+    0.89
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 1273,
+     "screens": 1.2,
+     "words": 272,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 11,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 1,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Findings inbox",
+     "words": 2,
+     "chars": 14,
+     "lines": 1,
+     "size": 28,
+     "vw": 3.6,
+     "font": "Manrope",
+     "weight": 800,
+     "tracking": -0.04,
+     "leading": 1.2,
+     "top": 117,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "Findings inbox",
+     "words": 2,
+     "lines": 1,
+     "size": 28,
+     "font": "Manrope"
+    },
+    "headings": [
+     {
+      "text": "Findings inbox",
+      "words": 2,
+      "chars": 14,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.036,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.49,
+      "top": 117,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "DM Sans",
+       "share": 0.95,
+       "mono": false
+      },
+      {
+       "family": "Manrope",
+       "share": 0.05,
+       "mono": false
+      },
+      {
+       "family": "DM Mono",
+       "share": 0.01,
+       "mono": true
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      16,
+      22,
+      28
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "DM Sans",
+      "size": 11,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": null
+     },
+     "measureChars": 68,
+     "max": {
+      "size": 28,
+      "vw": 3.6,
+      "font": "Manrope",
+      "text": "Findings inbox"
+     },
+     "monoShare": 0.01,
+     "monoProseShare": 0.01,
+     "monoFamilies": [
+      "DM Mono"
+     ],
+     "monoSamples": [
+      "1m 30s",
+      "15s"
+     ],
+     "microLabels": 4,
+     "microLabelShare": 0.055,
+     "microSamples": [
+      "IMMUNITY NETWORK",
+      "OPERATIONS",
+      "ENGINEER CONSOLE / OPERATIONS",
+      "OUTAGE HERD IMMUNITY · DEMO BUILD"
+     ],
+     "upperShare": 0.14,
+     "centerShare": 0.01,
+     "smallText": 42
+    },
+    "eyebrows": [
+     {
+      "text": "ENGINEER CONSOLE / OPERATIONS",
+      "above": "Findings inbox",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 9,
+      "top": 94
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0a1020",
+     "bodyBgHsl": {
+      "h": 224,
+      "s": 0.52,
+      "l": 0.08
+     },
+     "dark": true,
+     "sectionBgs": [],
+     "textColors": [
+      {
+       "color": "#8e9cb3",
+       "share": 0.16
+      },
+      {
+       "color": "#dce5f3",
+       "share": 0.15
+      },
+      {
+       "color": "#e7edf8",
+       "share": 0.09
+      },
+      {
+       "color": "#7e8da6",
+       "share": 0.08
+      },
+      {
+       "color": "#b8c4d8",
+       "share": 0.08
+      }
+     ],
+     "button": {
+      "bg": "#efefef",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.94
+      },
+      "fg": "#9caac0"
+     },
+     "lowContrast": [
+      {
+       "text": "Sign out",
+       "ratio": 2,
+       "need": 4.5,
+       "size": 12,
+       "fg": "#9caac0",
+       "bg": "#efefef"
+      },
+      {
+       "text": "OPERATIONS",
+       "ratio": 4.3,
+       "need": 4.5,
+       "size": 9,
+       "fg": "#6e7c93",
+       "bg": "#0d1524"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": 8,
+     "height": 43,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Sign out",
+      "Refresh"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 4,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.banner → linear-gradient(100deg, rgb(25, 42, 71), rgb(19, 30, 48))",
+      "section.panel → linear-gradient(145deg, rgb(19, 30, 46), rgb(16, 24, 39))",
+      "section.panel.padded → linear-gradient(145deg, rgb(19, 30, 46), rgb(16, 24, 39))",
+      "section.panel.padded → linear-gradient(145deg, rgb(19, 30, 46), rgb(16, 24, 39))"
+     ],
+     "gradientText": 0,
+     "hairlines": 5,
+     "hairlineSamples": [
+      "aside.sidebar 215px",
+      "header 553px",
+      "div.panel-head 507px",
+      "div.panel-foot 507px",
+      "footer 553px"
+     ],
+     "outlinedBoxes": 4,
+     "dashed": 0,
+     "blurred": 1,
+     "roundedBoxes": 4,
+     "boxRadius": 11,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": true,
+     "height": 65,
+     "floatingPill": false,
+     "blur": true
+    },
+    "fontsLoaded": [
+     "dm mono",
+     "dm sans",
+     "manrope"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 1273,
+    "margins": {
+     "left": 25,
+     "right": 24
+    },
+    "sections": [
+     {
+      "sel": "section.panel",
+      "tag": "section",
+      "top": 456,
+      "height": 528,
+      "words": 87,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "All findings",
+       "size": 13,
+       "tag": "h2"
+      },
+      "left": 253,
+      "right": 24,
+      "textLeft": 253,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.columns",
+      "tag": "div",
+      "top": 1004,
+      "height": 206,
+      "words": 43,
+      "media": 0,
+      "middle": 55,
+      "heading": {
+       "text": "Time to proven fix",
+       "size": 13,
+       "tag": "h2"
+      },
+      "left": 257,
+      "right": 62,
+      "textLeft": 257,
+      "textRight": 62,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Findings inbox",
+      "size": 28,
+      "top": 117,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 237,
+      "n": 1
+     },
+     {
+      "x": 290,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 2,
+    "bodySize": 11,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "dark": true,
+    "ground": "#0a1020",
+    "sidebar": {
+     "w": 215,
+     "tag": "aside",
+     "links": 3,
+     "share": 0.28
+    },
+    "topbar": {
+     "h": 65
+    },
+    "canvas": {
+     "left": 22,
+     "right": -275
+    },
+    "hero": {
+     "text": "Findings inbox",
+     "words": 2,
+     "chars": 14,
+     "lines": 1,
+     "size": 28,
+     "vw": 3.6,
+     "font": "Manrope",
+     "weight": 800,
+     "tracking": -0.04,
+     "leading": 1.2,
+     "top": 117,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 5,
+     "firstScreen": 3,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 5,
+     "radii": [
+      [
+       11,
+       3
+      ],
+      [
+       0,
+       1
+      ],
+      [
+       10,
+       1
+      ]
+     ],
+     "heavyBorders": 1,
+     "borderSamples": [
+      "#33496d on #0a1020 (2.09:1)"
+     ],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 3,
+     "leftAligned": 3,
+     "figures": 1,
+     "tabularShare": 0,
+     "kpiMax": 11
+    },
+    "rows": {
+     "count": 6,
+     "median": 60
+    },
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0.88,
+     "tiny": 76,
+     "tinySamples": [
+      "IMMUNITY NETWORK 9px",
+      "Company workspace 10px",
+      "OPERATIONS 9px",
+      "● DATA SOURCE 9px"
+     ],
+     "sizes": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      16,
+      28
+     ]
+    },
+    "title": {
+     "text": "Findings inbox",
+     "size": 28,
+     "top": 117
+    },
+    "colourShare": 0.013
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 2,
+   "filled": [
+    0.65,
+    0.77
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 1617,
+     "screens": 1.9,
+     "words": 266,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 11,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 1,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Findings inbox",
+     "words": 2,
+     "chars": 14,
+     "lines": 1,
+     "size": 24,
+     "vw": 6.2,
+     "font": "Manrope",
+     "weight": 800,
+     "tracking": -0.04,
+     "leading": 1.2,
+     "top": 113,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "Findings inbox",
+     "words": 2,
+     "lines": 1,
+     "size": 24,
+     "font": "Manrope"
+    },
+    "headings": [
+     {
+      "text": "Findings inbox",
+      "words": 2,
+      "chars": 14,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.042,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.93,
+      "top": 113,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "5",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.38,
+      "top": 421,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "2",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.38,
+      "top": 421,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "1",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.38,
+      "top": 525,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "1",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.38,
+      "top": 525,
+      "tag": "strong",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 5,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "DM Sans",
+       "share": 0.94,
+       "mono": false
+      },
+      {
+       "family": "Manrope",
+       "share": 0.05,
+       "mono": false
+      },
+      {
+       "family": "DM Mono",
+       "share": 0.01,
+       "mono": true
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      16,
+      22,
+      24
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "DM Sans",
+      "size": 11,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": null
+     },
+     "measureChars": 66,
+     "max": {
+      "size": 24,
+      "vw": 6.2,
+      "font": "Manrope",
+      "text": "Findings inbox"
+     },
+     "monoShare": 0.01,
+     "monoProseShare": 0.01,
+     "monoFamilies": [
+      "DM Mono"
+     ],
+     "monoSamples": [
+      "1m 30s",
+      "15s"
+     ],
+     "microLabels": 4,
+     "microLabelShare": 0.056,
+     "microSamples": [
+      "IMMUNITY NETWORK",
+      "OPERATIONS",
+      "ENGINEER CONSOLE / OPERATIONS",
+      "OUTAGE HERD IMMUNITY · DEMO BUILD"
+     ],
+     "upperShare": 0.14,
+     "centerShare": 0.01,
+     "smallText": 41
+    },
+    "eyebrows": [
+     {
+      "text": "ENGINEER CONSOLE / OPERATIONS",
+      "above": "Findings inbox",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 9,
+      "top": 90
+     },
+     {
+      "text": "OPEN FINDINGS",
+      "above": "5",
+      "upper": true,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 10,
+      "top": 400
+     },
+     {
+      "text": "CRITICAL",
+      "above": "2",
+      "upper": true,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 10,
+      "top": 400
+     },
+     {
+      "text": "AWAITING APPROVAL",
+      "above": "1",
+      "upper": true,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 10,
+      "top": 504
+     },
+     {
+      "text": "RESOLVED",
+      "above": "1",
+      "upper": true,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 10,
+      "top": 504
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0a1020",
+     "bodyBgHsl": {
+      "h": 224,
+      "s": 0.52,
+      "l": 0.08
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0d1524",
+       "top": 0,
+       "hsl": {
+        "h": 219,
+        "s": 0.47,
+        "l": 0.1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#8e9cb3",
+       "share": 0.16
+      },
+      {
+       "color": "#dce5f3",
+       "share": 0.16
+      },
+      {
+       "color": "#e7edf8",
+       "share": 0.09
+      },
+      {
+       "color": "#7e8da6",
+       "share": 0.08
+      },
+      {
+       "color": "#b8c4d8",
+       "share": 0.08
+      }
+     ],
+     "button": {
+      "bg": "#efefef",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.94
+      },
+      "fg": "#9caac0"
+     },
+     "lowContrast": [
+      {
+       "text": "Sign out",
+       "ratio": 2,
+       "need": 4.5,
+       "size": 12,
+       "fg": "#9caac0",
+       "bg": "#efefef"
+      },
+      {
+       "text": "OPERATIONS",
+       "ratio": 4.3,
+       "need": 4.5,
+       "size": 9,
+       "fg": "#6e7c93",
+       "bg": "#0d1524"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": 8,
+     "height": 43,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Sign out",
+      "Refresh"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 1,
+     "shadowSamples": [],
+     "gradients": 8,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.banner → linear-gradient(100deg, rgb(25, 42, 71), rgb(19, 30, 48))",
+      "div.metric → linear-gradient(145deg, rgb(19, 30, 46), rgb(16, 24, 39))",
+      "div.metric → linear-gradient(145deg, rgb(19, 30, 46), rgb(16, 24, 39))",
+      "div.metric → linear-gradient(145deg, rgb(19, 30, 46), rgb(16, 24, 39))"
+     ],
+     "gradientText": 0,
+     "hairlines": 5,
+     "hairlineSamples": [
+      "aside.sidebar 215px",
+      "header 390px",
+      "div.panel-head 362px",
+      "div.panel-foot 362px",
+      "footer 390px"
+     ],
+     "outlinedBoxes": 8,
+     "dashed": 0,
+     "blurred": 1,
+     "roundedBoxes": 8,
+     "boxRadius": 11,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 386
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": true,
+     "height": 65,
+     "floatingPill": false,
+     "blur": true
+    },
+    "fontsLoaded": [
+     "dm mono",
+     "dm sans",
+     "manrope"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 1617,
+    "margins": {
+     "left": 13,
+     "right": 14
+    },
+    "sections": [
+     {
+      "sel": "div.title",
+      "tag": "div",
+      "top": 83,
+      "height": 156,
+      "words": 18,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Findings inbox",
+       "size": 24,
+       "tag": "h1"
+      },
+      "left": 13,
+      "right": 30,
+      "textLeft": 13,
+      "textRight": 30,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.metrics",
+      "tag": "div",
+      "top": 386,
+      "height": 200,
+      "words": 16,
+      "media": 0,
+      "middle": 88,
+      "heading": null,
+      "left": 27,
+      "right": 110,
+      "textLeft": 27,
+      "textRight": 110,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.panel",
+      "tag": "section",
+      "top": 606,
+      "height": 580,
+      "words": 80,
+      "media": 0,
+      "middle": 10,
+      "heading": {
+       "text": "All findings",
+       "size": 13,
+       "tag": "h2"
+      },
+      "left": 29,
+      "right": 14,
+      "textLeft": 29,
+      "textRight": 14,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.columns",
+      "tag": "div",
+      "top": 1206,
+      "height": 351,
+      "words": 43,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Time to proven fix",
+       "size": 13,
+       "tag": "h2"
+      },
+      "left": 33,
+      "right": 43,
+      "textLeft": 33,
+      "textRight": 43,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Findings inbox",
+      "size": 24,
+      "top": 113,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [
+     {
+      "text": "ENGINEER CONSOLE / OPERATIONS",
+      "side": "left",
+      "px": 13
+     },
+     {
+      "text": "Findings inbox",
+      "side": "left",
+      "px": 13
+     },
+     {
+      "text": "Investigate signals, review proof, and approve onl",
+      "side": "left",
+      "px": 13
+     },
+     {
+      "text": "OUTAGE HERD IMMUNITY · DEMO BUILD",
+      "side": "left",
+      "px": 13
+     }
+    ],
+    "edges": [
+     {
+      "x": 13,
+      "n": 1
+     },
+     {
+      "x": 66,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 2,
+    "bodySize": 11,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "dark": true,
+    "ground": "#0a1020",
+    "sidebar": null,
+    "topbar": {
+     "h": 65
+    },
+    "canvas": {
+     "left": 13,
+     "right": -429
+    },
+    "hero": {
+     "text": "Findings inbox",
+     "words": 2,
+     "chars": 14,
+     "lines": 1,
+     "size": 24,
+     "vw": 6.2,
+     "font": "Manrope",
+     "weight": 800,
+     "tracking": -0.04,
+     "leading": 1.2,
+     "top": 113,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 9,
+     "firstScreen": 7,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 9,
+     "radii": [
+      [
+       11,
+       7
+      ],
+      [
+       0,
+       1
+      ],
+      [
+       10,
+       1
+      ]
+     ],
+     "heavyBorders": 1,
+     "borderSamples": [
+      "#33496d on #0a1020 (2.09:1)"
+     ],
+     "heavyShadows": 0,
+     "softShadows": 1,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 3,
+     "leftAligned": 3,
+     "figures": 1,
+     "tabularShare": 0,
+     "kpiMax": 11
+    },
+    "rows": {
+     "count": 6,
+     "median": 60
+    },
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0.88,
+     "tiny": 74,
+     "tinySamples": [
+      "IMMUNITY NETWORK 9px",
+      "Company workspace 10px",
+      "OPERATIONS 9px",
+      "● DATA SOURCE 9px"
+     ],
+     "sizes": [
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      16,
+      24
+     ]
+    },
+    "title": {
+     "text": "Findings inbox",
+     "size": 24,
+     "top": 113
+    },
+    "colourShare": 0.022
+   },
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "micro-label",
+   "width": 1440,
+   "message": "4 tiny uppercase letter-spaced labels (e.g. \"IMMUNITY NETWORK\", \"OPERATIONS\", \"ENGINEER CONSOLE / OPERATIONS\", \"OUTAGE HERD IMMUNITY · DEMO BUILD\").",
+   "fix": "Use sentence-case text at a readable size, or delete the label.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "gradient",
+   "width": 1440,
+   "message": "8 gradient fill(s): div.banner → linear-gradient(100deg, rgb(25, 42, 71), rgb(19, 30, 48)) | div.metric → linear-gradient(145deg, rgb(19, 30, 46), rgb(16, 24, 39)) | div.metric → linear-gradient(145deg, rgb(19, 30, 46), rgb(16, 24, 39))",
+   "fix": "Use a flat colour or a real image. The only gradient allowed by default is a neutral scrim over a photo for legibility.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "contrast",
+   "width": 1440,
+   "message": "Unreadable text: \"Sign out\" 2:1 (#9caac0 on #efefef)",
+   "fix": "Raise contrast to at least 4.5:1 for text, 3:1 for large display.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "dev-server",
+   "width": 1440,
+   "message": "This page is served by a development server (Vite, webpack or Next in dev mode).",
+   "fix": "Run the last gate on the production build too (vite build && vite preview, next build && next start, or the built index.html): minifiers and bundlers change the CSS a visitor receives.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "tiny-text",
+   "width": 1440,
+   "message": "76 text blocks under 11px: IMMUNITY NETWORK 9px, Company workspace 10px, OPERATIONS 9px, ● DATA SOURCE 9px.",
+   "fix": "Nothing below 11px; secondary text 12px, data 13–14px.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "edge-text",
+   "width": 390,
+   "message": "4 text block(s) sit 12–15px from the phone's edge: \"ENGINEER CONSOLE / OPERATIONS\" (13px); \"Findings inbox\" (13px); \"Investigate signals, review pr\" (13px)",
+   "fix": "The page margin is 16–20px on a phone; the header and the corner labels sit on it too."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/Users/shubham.jindal/Downloads/HackCBS_Person3_Frontend 2/.taste-skill/before/findings/desktop-fold.jpg",
+   "pages": [
+    "/Users/shubham.jindal/Downloads/HackCBS_Person3_Frontend 2/.taste-skill/before/findings/desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/Users/shubham.jindal/Downloads/HackCBS_Person3_Frontend 2/.taste-skill/before/findings/tablet-fold.jpg",
+   "pages": [
+    "/Users/shubham.jindal/Downloads/HackCBS_Person3_Frontend 2/.taste-skill/before/findings/tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/Users/shubham.jindal/Downloads/HackCBS_Person3_Frontend 2/.taste-skill/before/findings/mobile-fold.jpg",
+   "pages": [
+    "/Users/shubham.jindal/Downloads/HackCBS_Person3_Frontend 2/.taste-skill/before/findings/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+[
+  {
+    "id": "les_041",
+    "cause_class": "MISSING_INDEX",
+    "symptoms": [
+      "p95 latency spike",
+      "full table scans",
+      "no lock waits",
+      "followed a release"
+    ],
+    "fix_template": "create_index",
+    "fix_shape": "index",
+    "fix_description": "Create a concurrent index on the filtered column and sort column",
+    "status": "proven",
+    "confirmations": 2,
+    "failures": 0,
+    "trust_score": 2,
+    "source": "agent",
+    "created_at": "2026-10-31T18:20:00Z"
+  },
+  {
+    "id": "les_seed_02",
+    "cause_class": "LONG_TRANSACTION",
+    "symptoms": [
+      "long-running transaction",
+      "lock waits"
+    ],
+    "fix_template": "lock_timeout_migration",
+    "fix_shape": "migration",
+    "fix_description": "Use a bounded lock timeout for the migration",
+    "status": "seeded",
+    "confirmations": 0,
+    "failures": 0,
+    "trust_score": 0,
+    "source": "postmortem",
+    "created_at": "2026-10-29T11:00:00Z"
+  },
+  {
+    "id": "les_failed_03",
+    "cause_class": "CONNECTION_PRESSURE",
+    "symptoms": [
+      "connection pool saturation"
+    ],
+    "fix_template": "pool_tuning",
+    "fix_shape": "configuration",
+    "fix_description": "Review connection pool sizing against observed concurrency",
+    "status": "failed",
+    "confirmations": 0,
+    "failures": 1,
+    "trust_score": 0,
+    "source": "agent",
+    "created_at": "2026-10-30T09:15:00Z"
+  },
+  {
+    "id": "les_review_04",
+    "cause_class": "LOCK_CONTENTION",
+    "symptoms": [
+      "lock waits",
+      "rollback spike"
+    ],
+    "fix_template": "lock_timeout_migration",
+    "fix_shape": "migration",
+    "fix_description": "Bound the migration lock wait, then retry the batch in smaller steps",
+    "status": "needs_review",
+    "confirmations": 1,
+    "failures": 0,
+    "trust_score": 1,
+    "source": "agent",
+    "created_at": "2026-11-01T02:58:00Z"
+  }
+]
