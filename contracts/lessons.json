@@ -1,0 +1,56 @@
+[
+  {
+    "id": "les_041",
+    "cause_class": "MISSING_INDEX",
+    "symptoms": [
+      "p95 latency spike",
+      "full table scan on a large table",
+      "followed a release",
+      "no lock waits"
+    ],
+    "fix_template": "create_index",
+    "fix_shape": "filter_then_sort_desc",
+    "fix_description": "Recreate an index on the filtered column followed by the sort column, newest first, built without blocking writes.",
+    "status": "proven",
+    "confirmations": 2,
+    "failures": 0,
+    "trust_score": 2,
+    "source": "agent",
+    "created_at": "2026-11-01T02:41:00Z"
+  },
+  {
+    "id": "les_5eed0001",
+    "cause_class": "LOCK_CONTENTION",
+    "symptoms": [
+      "every query on one table waits",
+      "a migration waits for a lock",
+      "long-running queries hold the table"
+    ],
+    "fix_template": "lock_timeout_migration",
+    "fix_shape": null,
+    "fix_description": "Run migrations with a short lock timeout and statement timeout, and cancel the blocking session.",
+    "status": "seeded",
+    "confirmations": 0,
+    "failures": 0,
+    "trust_score": 0,
+    "source": "postmortem",
+    "created_at": "2026-11-01T00:30:00Z"
+  },
+  {
+    "id": "les_037",
+    "cause_class": "MISSING_INDEX",
+    "symptoms": [
+      "p95 latency spike",
+      "full table scan on a large table"
+    ],
+    "fix_template": "create_index",
+    "fix_shape": "filter_only",
+    "fix_description": "Create an index on the filtered column, built without blocking writes.",
+    "status": "failed",
+    "confirmations": 1,
+    "failures": 2,
+    "trust_score": -3,
+    "source": "agent",
+    "created_at": "2026-11-01T01:15:00Z"
+  }
+]

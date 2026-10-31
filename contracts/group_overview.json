@@ -1,0 +1,38 @@
+[
+  {
+    "company": {
+      "id": "c_pinecart",
+      "name": "Pinecart"
+    },
+    "tech_stack": "Python, FastAPI, Postgres (Tiger)",
+    "open_findings": {
+      "critical": 0,
+      "warning": 1,
+      "info": 0
+    },
+    "open_risks": 1,
+    "last_incident": {
+      "id": "inc_11",
+      "status": "resolved",
+      "at": "2026-11-01T02:40:00Z"
+    }
+  },
+  {
+    "company": {
+      "id": "c_tealbox",
+      "name": "Tealbox"
+    },
+    "tech_stack": "Python, FastAPI, Postgres (Tiger)",
+    "open_findings": {
+      "critical": 1,
+      "warning": 1,
+      "info": 0
+    },
+    "open_risks": 2,
+    "last_incident": {
+      "id": "inc_12",
+      "status": "awaiting_approval",
+      "at": "2026-11-01T03:12:30Z"
+    }
+  }
+]
