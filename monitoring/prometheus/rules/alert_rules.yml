@@ -1,0 +1,17 @@
+groups:
+  - name: shop-alerts
+    rules:
+      - alert: HighLatencyP95
+        expr: |
+          histogram_quantile(
+            0.95,
+            sum by (shop, le) (
+              rate(http_request_duration_seconds_bucket[5m])
+            )
+          ) > 0.5
+        for: 2m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High p95 latency for {{ $labels.shop }}"
+          description: "The p95 HTTP latency for {{ $labels.shop }} has exceeded 500 ms for 2 minutes."
