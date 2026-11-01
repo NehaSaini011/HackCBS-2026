@@ -1,0 +1,8 @@
+{
+  "shop": "b",
+  "fix_sql": "CREATE INDEX CONCURRENTLY IF NOT EXISTS idx_fix_purchases_buyer_id_placed_at ON purchases (buyer_id, placed_at DESC)",
+  "test_sql": "SELECT 1 FROM purchases WHERE buyer_id = %s ORDER BY placed_at DESC LIMIT 20",
+  "params": [
+    3
+  ]
+}

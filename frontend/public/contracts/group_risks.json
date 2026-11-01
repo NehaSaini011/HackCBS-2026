@@ -1,0 +1,41 @@
+[
+  {
+    "id": "missing_index",
+    "risk_type": "missing_index",
+    "affected": 1,
+    "companies": [
+      {
+        "id": "c_pinecart",
+        "name": "Pinecart",
+        "status": "resolved",
+        "finding_id": "f_801"
+      },
+      {
+        "id": "c_tealbox",
+        "name": "Tealbox",
+        "status": "open",
+        "finding_id": "f_815"
+      }
+    ],
+    "proven_lesson": {
+      "id": "les_041",
+      "cause_class": "MISSING_INDEX",
+      "confirmations": 2,
+      "trust_score": 2
+    }
+  },
+  {
+    "id": "connections",
+    "risk_type": "connections",
+    "affected": 1,
+    "companies": [
+      {
+        "id": "c_tealbox",
+        "name": "Tealbox",
+        "status": "open",
+        "finding_id": "f_816"
+      }
+    ],
+    "proven_lesson": null
+  }
+]
