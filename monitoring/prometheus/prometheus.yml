@@ -1,6 +1,8 @@
 ﻿global:
   scrape_interval: 15s
   evaluation_interval: 15s
+rule_files:
+  - "rules/alert_rules.yml"
 
 scrape_configs:
   - job_name: prometheus
@@ -10,3 +12,12 @@ scrape_configs:
   - job_name: postgres
     static_configs:
       - targets: ["postgres-exporter:9187"]
+  - job_name: pinecart
+    metrics_path: /metrics
+    static_configs:
+      - targets: ["host.docker.internal:8011"]
+
+  - job_name: tealbox
+    metrics_path: /metrics
+    static_configs:
+      - targets: ["host.docker.internal:8012"]
