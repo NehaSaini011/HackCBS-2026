@@ -137,10 +137,15 @@ def group_risks(user: User = Depends(group_admin)):
     for r in yb.q("SELECT company_id, risk_type, status, finding_id, lesson_id FROM risk_exposure "
                   "WHERE group_id = %s ORDER BY risk_type", (user.group_id,)):
         row = board.setdefault(r["risk_type"], {"id": r["risk_type"], "risk_type": r["risk_type"],
-                                                "companies": [], "proven_lesson": None})
+                                                "companies": [], "proven_lesson": None,
+                                                "advisory": None})
         row["companies"].append({"id": r["company_id"], "name": names.get(r["company_id"]),
                                  "status": r["status"], "finding_id": r["finding_id"]})
     for row in board.values():
+        if row["risk_type"].startswith("advisory:"):
+            # A global fix published by the platform, not learned from a sister company
+            row["advisory"] = yb.q1("SELECT id, title, category, severity, fix FROM advisories "
+                                    "WHERE id = %s", (row["risk_type"].split(":", 1)[1],))
         cause = RISK_TO_CAUSE.get(row["risk_type"])
         if cause:
             row["proven_lesson"] = yb.q1(

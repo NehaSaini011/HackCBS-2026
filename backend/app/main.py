@@ -38,6 +38,6 @@ if os.environ.get("USE_STUBS") == "true":
     from app import stubs
     app.include_router(stubs.router)
 else:
-    from app import routes_agent, routes_auth, routes_ingest, routes_web
-    for module in (routes_auth, routes_ingest, routes_web, routes_agent):
+    from app import routes_advisories, routes_agent, routes_auth, routes_ingest, routes_web
+    for module in (routes_auth, routes_ingest, routes_web, routes_agent, routes_advisories):
         app.include_router(module.router)
