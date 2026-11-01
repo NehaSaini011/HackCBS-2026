@@ -128,6 +128,9 @@ def update_incident(incident_id: str, body: IncidentUpdate,
 
 @router.post("/lessons/match")
 def match_lessons(body: LessonMatchIn, company: Company = Depends(company_from_key)):
+    # Meko OFF is enforced here too, not only in the agent: no recall reaches Meko or the registry
+    if yb.get_setting("meko_mode", "on") == "off":
+        return {"lessons": [], "meko_activity": [event("skipped", "Meko is OFF: no recall")]}
     activity = []
     ids: list[str] = []
     try:

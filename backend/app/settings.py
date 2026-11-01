@@ -14,13 +14,15 @@ class Settings(BaseSettings):
     allowed_origins: str = "http://localhost:5173"   # comma-separated list
 
     gemini_api_key: str = ""
-    gemini_text_model: str = "gemini-2.5-flash"
+    gemini_text_model: str = "gemini-3.8-flash"
     gemini_embed_model: str = "gemini-embedding-001"
 
     meko_backend: str = "mock"      # "mock" or "mcp"
     meko_mcp_url: str = ""
     meko_api_key: str = ""
     meko_datapack: str = ""
+
+    provider_token: str = ""        # lets us, the platform operator, publish global advisories
 
 
 settings = Settings()   # import this object everywhere: from app.settings import settings
