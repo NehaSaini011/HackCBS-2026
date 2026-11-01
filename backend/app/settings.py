@@ -11,7 +11,7 @@ class Settings(BaseSettings):
     mongodb_db: str = "fixnet"
     jwt_secret: str
     jwt_hours: int = 12
-    allowed_origins: str = "http://localhost:5173"   # comma-separated list
+    allowed_origins: str = "http://localhost:5173,https://outage-herd-immunity.vercel.app"   # comma-separated list
 
     gemini_api_key: str = ""
     gemini_text_model: str = "gemini-3.8-flash"
