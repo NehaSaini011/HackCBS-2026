@@ -1,0 +1,30 @@
+{
+  "id": "inc_13",
+  "company": {
+    "id": "c_tealbox",
+    "name": "Tealbox"
+  },
+  "finding_ids": [
+    "f_816"
+  ],
+  "status": "unknown",
+  "diagnosis": {
+    "cause_class": "UNKNOWN",
+    "explanation": "Shown for review. The agent does not fix this test type automatically yet.",
+    "evidence": []
+  },
+  "recalled_lesson": null,
+  "fix": null,
+  "proof": null,
+  "decision": null,
+  "applied": false,
+  "meko_activity": [],
+  "timeline": {
+    "first_alert_at": "2026-11-01T03:20:00Z",
+    "diagnosed_at": null,
+    "proven_at": null,
+    "decided_at": null,
+    "resolved_at": null
+  },
+  "meko_mode": "on"
+}
