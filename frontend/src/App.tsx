@@ -653,6 +653,9 @@ function Findings({ user }: any) {
                         <span className="sub">
                           {f.company?.name} · {words(f.test)}
                         </span>
+                        <span className="sub" style={{ color: "var(--pill-warning-ink)" }}>
+                          Waiting for agent
+                        </span>
                       </>
                     )}
                   </td>
