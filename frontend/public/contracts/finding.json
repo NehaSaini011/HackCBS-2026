@@ -1,0 +1,12 @@
+{
+  "shop": "b",
+  "source": "check_postgres",
+  "test": "connections",
+  "severity": "warning",
+  "summary": "Connections at 92% of the limit",
+  "raw": {
+    "action": "backends",
+    "output": "POSTGRES_BACKENDS WARNING: DB \"tsdb\" (host:...) 92 of 100 connections (92%)"
+  },
+  "observed_at": "2026-11-01T03:20:00Z"
+}

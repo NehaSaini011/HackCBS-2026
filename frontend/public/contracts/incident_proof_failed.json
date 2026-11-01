@@ -1,0 +1,77 @@
+{
+  "id": "inc_proof_failed",
+  "company": {
+    "id": "c_tealbox",
+    "name": "Tealbox"
+  },
+  "finding_ids": [
+    "f_840"
+  ],
+  "status": "proof_failed",
+  "diagnosis": {
+    "cause_class": "MISSING_INDEX",
+    "explanation": "The order history query now reads the whole purchases table (about 450,000 rows) on every call, because the index it used was dropped by release v2.3. Its slowest run is 1,900 ms, and no sessions are waiting on locks.",
+    "evidence": [
+      {
+        "check": "latency_history",
+        "query": "WITH recent AS (...) SELECT endpoint, p95_now, p95_before ...",
+        "result": "/customers/{customer_id}/orders: p95 2100 ms now, 3 ms in the hour before"
+      },
+      {
+        "check": "slow_queries",
+        "query": "SELECT query, calls, mean_exec_time, max_exec_time FROM pg_stat_statements ...",
+        "result": "slowest run 1900.4 ms (mean 1650.2 ms) over 412 calls"
+      },
+      {
+        "check": "query_plan",
+        "query": "EXPLAIN (FORMAT JSON) SELECT order_id, status, total_paise, placed_at AS created FROM purchases WHERE buyer_id = 1 ORDER BY placed_at DESC LIMIT 1",
+        "result": "Seq Scan on purchases (about 450,000 rows), filtering on buyer_id, then sorted by placed_at"
+      },
+      {
+        "check": "locks",
+        "query": "SELECT count(*) AS waiting FROM pg_locks WHERE NOT granted",
+        "result": "0 sessions waiting on locks"
+      },
+      {
+        "check": "releases",
+        "query": "SELECT version, description, applied_at, ... FROM releases ORDER BY applied_at DESC LIMIT 1",
+        "result": "v2.3 at 03:11 UTC: perf: replace customer index with status/date index for admin reports"
+      }
+    ]
+  },
+  "recalled_lesson": null,
+  "fix": {
+    "template": "create_index",
+    "sql": "CREATE INDEX CONCURRENTLY IF NOT EXISTS idx_fix_purchases_buyer_id_placed_at ON purchases (buyer_id, placed_at DESC)",
+    "test_sql": "SELECT 1 FROM purchases WHERE buyer_id = %s ORDER BY placed_at DESC LIMIT 20",
+    "params": [
+      3
+    ]
+  },
+  "proof": {
+    "method": "fork",
+    "fix_sql": "CREATE INDEX CONCURRENTLY IF NOT EXISTS idx_fix_purchases_buyer_id_placed_at ON purchases (buyer_id, placed_at DESC)",
+    "before_p95_ms": 2100.0,
+    "after_p95_ms": 2080.0,
+    "passed": false,
+    "error": null,
+    "fork_id": "test-db-p2qz8n4xk1"
+  },
+  "decision": null,
+  "applied": false,
+  "meko_activity": [
+    {
+      "op": "recall",
+      "text": "knowledgebase_search \u2192 0 lesson(s)",
+      "at": "2026-11-01T04:00:36Z"
+    }
+  ],
+  "timeline": {
+    "first_alert_at": "2026-11-01T04:00:30Z",
+    "diagnosed_at": "2026-11-01T04:00:39Z",
+    "proven_at": null,
+    "decided_at": null,
+    "resolved_at": null
+  },
+  "meko_mode": "on"
+}

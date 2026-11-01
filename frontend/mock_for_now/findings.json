@@ -1,6 +1,6 @@
 [
   {
-    "id": "f_815",
+    "id": "f_812",
     "company": {
       "id": "c_tealbox",
       "name": "Tealbox"
@@ -8,12 +8,13 @@
     "test": "latency",
     "source": "alertmanager",
     "severity": "critical",
-    "summary": "p95 latency above 500 ms on order history",
+    "summary": "p95 latency above 500 ms",
     "status": "awaiting_approval",
     "incident_id": "inc_12",
     "duplicates": 3,
     "first_seen": "2026-11-01T03:12:30Z",
-    "last_seen": "2026-11-01T03:14:30Z"
+    "last_seen": "2026-11-01T03:14:30Z",
+    "lesson_id": null
   },
   {
     "id": "f_816",
@@ -21,63 +22,33 @@
       "id": "c_tealbox",
       "name": "Tealbox"
     },
-    "test": "missing_index",
-    "source": "PgHero",
-    "severity": "critical",
-    "summary": "Candidate index failed its proof on the copy",
-    "status": "proof_failed",
-    "incident_id": "inc_proof_failed",
-    "duplicates": 1,
-    "first_seen": "2026-11-01T02:50:00Z",
-    "last_seen": "2026-11-01T02:58:00Z"
-  },
-  {
-    "id": "f_809",
-    "company": {
-      "id": "c_tealbox",
-      "name": "Tealbox"
-    },
-    "test": "missing_index",
-    "source": "PgHero",
-    "severity": "warning",
-    "summary": "Missing index suggested on purchases",
-    "status": "diagnosed",
-    "incident_id": "inc_11",
-    "duplicates": 1,
-    "first_seen": "2026-11-01T02:41:00Z",
-    "last_seen": "2026-11-01T02:41:00Z"
-  },
-  {
-    "id": "f_801",
-    "company": {
-      "id": "c_tealbox",
-      "name": "Tealbox"
-    },
     "test": "connections",
     "source": "check_postgres",
     "severity": "warning",
-    "summary": "Connections at 92% of the configured limit",
-    "status": "open",
-    "incident_id": "inc_10",
+    "summary": "Connections at 92% of the limit",
+    "status": "unknown",
+    "incident_id": "inc_13",
     "duplicates": 0,
-    "first_seen": "2026-11-01T01:20:00Z",
-    "last_seen": "2026-11-01T01:20:00Z"
+    "first_seen": "2026-11-01T03:20:00Z",
+    "last_seen": "2026-11-01T03:20:00Z",
+    "lesson_id": null
   },
   {
-    "id": "f_800",
+    "id": "f_817",
     "company": {
       "id": "c_tealbox",
       "name": "Tealbox"
     },
-    "test": "replication_lag",
+    "test": "long_transactions",
     "source": "check_postgres",
-    "severity": "info",
-    "summary": "Replication lag briefly above 1 s during the backup window",
+    "severity": "warning",
+    "summary": "Transaction idle for 4 minutes",
     "status": "open",
     "incident_id": null,
     "duplicates": 0,
-    "first_seen": "2026-11-01T00:40:00Z",
-    "last_seen": "2026-11-01T00:40:00Z"
+    "first_seen": "2026-11-01T03:22:10Z",
+    "last_seen": "2026-11-01T03:22:10Z",
+    "lesson_id": null
   },
   {
     "id": "f_790",
@@ -85,14 +56,15 @@
       "id": "c_tealbox",
       "name": "Tealbox"
     },
-    "test": "security",
-    "source": "Trivy",
-    "severity": "info",
-    "summary": "Base image update available",
+    "test": "latency",
+    "source": "alertmanager",
+    "severity": "critical",
+    "summary": "p95 latency above 500 ms",
     "status": "resolved",
     "incident_id": "inc_09",
-    "duplicates": 0,
-    "first_seen": "2026-10-31T16:00:00Z",
-    "last_seen": "2026-10-31T16:05:00Z"
+    "duplicates": 1,
+    "first_seen": "2026-11-01T01:05:00Z",
+    "last_seen": "2026-11-01T01:06:00Z",
+    "lesson_id": null
   }
 ]

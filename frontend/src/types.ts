@@ -105,6 +105,16 @@ export interface Decision {
   at: string;
 }
 
+export interface DecisionResponse {
+  status: Status;
+  decision: Decision;
+}
+
+export interface PushRiskResponse {
+  finding_id: string;
+  lesson_id: string;
+}
+
 export interface MekoEvent {
   op: "recall" | "store" | "share" | "skipped" | "error";
   text: string;

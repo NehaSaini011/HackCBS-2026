@@ -4,68 +4,53 @@
     "cause_class": "MISSING_INDEX",
     "symptoms": [
       "p95 latency spike",
-      "full table scans",
-      "no lock waits",
-      "followed a release"
+      "full table scan on a large table",
+      "followed a release",
+      "no lock waits"
     ],
     "fix_template": "create_index",
-    "fix_shape": "index",
-    "fix_description": "Create a concurrent index on the filtered column and sort column",
+    "fix_shape": "filter_then_sort_desc",
+    "fix_description": "Recreate an index on the filtered column followed by the sort column, newest first, built without blocking writes.",
     "status": "proven",
     "confirmations": 2,
     "failures": 0,
     "trust_score": 2,
     "source": "agent",
-    "created_at": "2026-10-31T18:20:00Z"
+    "created_at": "2026-11-01T02:41:00Z"
   },
   {
-    "id": "les_seed_02",
-    "cause_class": "LONG_TRANSACTION",
+    "id": "les_5eed0001",
+    "cause_class": "LOCK_CONTENTION",
     "symptoms": [
-      "long-running transaction",
-      "lock waits"
+      "every query on one table waits",
+      "a migration waits for a lock",
+      "long-running queries hold the table"
     ],
     "fix_template": "lock_timeout_migration",
-    "fix_shape": "migration",
-    "fix_description": "Use a bounded lock timeout for the migration",
+    "fix_shape": null,
+    "fix_description": "Run migrations with a short lock timeout and statement timeout, and cancel the blocking session.",
     "status": "seeded",
     "confirmations": 0,
     "failures": 0,
     "trust_score": 0,
     "source": "postmortem",
-    "created_at": "2026-10-29T11:00:00Z"
+    "created_at": "2026-11-01T00:30:00Z"
   },
   {
-    "id": "les_failed_03",
-    "cause_class": "CONNECTION_PRESSURE",
+    "id": "les_037",
+    "cause_class": "MISSING_INDEX",
     "symptoms": [
-      "connection pool saturation"
+      "p95 latency spike",
+      "full table scan on a large table"
     ],
-    "fix_template": "pool_tuning",
-    "fix_shape": "configuration",
-    "fix_description": "Review connection pool sizing against observed concurrency",
+    "fix_template": "create_index",
+    "fix_shape": "filter_only",
+    "fix_description": "Create an index on the filtered column, built without blocking writes.",
     "status": "failed",
-    "confirmations": 0,
-    "failures": 1,
-    "trust_score": 0,
-    "source": "agent",
-    "created_at": "2026-10-30T09:15:00Z"
-  },
-  {
-    "id": "les_review_04",
-    "cause_class": "LOCK_CONTENTION",
-    "symptoms": [
-      "lock waits",
-      "rollback spike"
-    ],
-    "fix_template": "lock_timeout_migration",
-    "fix_shape": "migration",
-    "fix_description": "Bound the migration lock wait, then retry the batch in smaller steps",
-    "status": "needs_review",
     "confirmations": 1,
-    "failures": 0,
-    "trust_score": 1,
+    "failures": 2,
+    "trust_score": -3,
     "source": "agent",
-    "created_at": "2026-11-01T02:58:00Z"
+    "created_at": "2026-11-01T01:15:00Z"
   }
 ]

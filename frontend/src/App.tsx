@@ -60,6 +60,31 @@ const clock = (iso?: string | null) => {
   const d = new Date(iso);
   return Number.isNaN(d.getTime()) ? DASH : d.toLocaleTimeString();
 };
+const formatDuration = (
+  start?: string | null,
+  end?: string | null,
+) => {
+  if (!start || !end) return DASH;
+
+  const startTime = new Date(start).getTime();
+  const endTime = new Date(end).getTime();
+
+  if (
+    Number.isNaN(startTime) ||
+    Number.isNaN(endTime) ||
+    endTime < startTime
+  ) {
+    return DASH;
+  }
+
+  const totalSeconds = Math.floor((endTime - startTime) / 1000);
+  const minutes = Math.floor(totalSeconds / 60);
+  const seconds = totalSeconds % 60;
+
+  return minutes > 0
+    ? `${minutes}m ${seconds}s`
+    : `${seconds}s`;
+};
 
 const stamp = (ms: number | null) =>
   ms === null ? "not yet" : new Date(ms).toLocaleTimeString();
@@ -628,6 +653,9 @@ function Findings({ user }: any) {
                         <span className="sub">
                           {f.company?.name} · {words(f.test)}
                         </span>
+                        <span className="sub" style={{ color: "var(--pill-warning-ink)" }}>
+                          Waiting for agent
+                        </span>
                       </>
                     )}
                   </td>
@@ -778,6 +806,10 @@ function Incident({ id }: { id: string }) {
   const evidence: EvidenceRow[] = diagnosis?.evidence ?? [];
   const decision = x.decision ?? null;
   const activity = x.meko_activity ?? [];
+  const timeToProvenFix = formatDuration(
+    x.timeline?.first_alert_at,
+    x.timeline?.proven_at,
+  );
   const finished = isFinalStatus(x.status);
   const canDecide = passed && !decision;
 
@@ -792,10 +824,17 @@ function Incident({ id }: { id: string }) {
   async function decide(a: "approve" | "reject") {
     DEC(true);
     AE("");
+
     try {
-      const next =
-        a === "approve" ? await api.approve(id) : await api.reject(id, reason);
-      setDecided(next);
+      if (a === "approve") {
+        await api.approve(id);
+      } else {
+        await api.reject(id, reason);
+      }
+
+      const updatedIncident = await api.incident(id);
+
+      setDecided(updatedIncident);
       J(false);
       poll.refresh();
     } catch (e: any) {
@@ -1110,7 +1149,19 @@ function Incident({ id }: { id: string }) {
           <section className="panel">
             <header>
               <h2>Memory activity</h2>
-              <span className="pill">meko {x.meko_mode ?? DASH}</span>
+              <div
+                style={{
+                  display: "flex",
+                  gap: 8,
+                  alignItems: "center",
+                  flexWrap: "wrap",
+                }}
+              >
+                <span className="pill">meko {x.meko_mode ?? DASH}</span>
+                <span className="pill">
+                  time to proven fix · {timeToProvenFix}
+                </span>
+              </div>
             </header>
             {activity.length ? (
               <div className="rows">
@@ -1173,7 +1224,7 @@ function Lessons() {
   const tabList: [string, string, number][] = [
     ["all", "All", data.length],
     ["proven", "Proven", by("proven")],
-    ["seeded", "Untested", by("seeded")],
+    ["seeded", "Public postmortems", by("seeded")],
     ["needs_review", "Needs review", by("needs_review")],
     ["failed", "Failed", by("failed")],
   ];
@@ -1216,7 +1267,21 @@ function Lessons() {
 
           <div className="rows">
             {rows.map((l) => (
-              <div className="row wrap" key={l.id}>
+              <div
+                className="row wrap"
+                key={l.id}
+                style={{
+                  borderLeft:
+                    l.status === "seeded"
+                      ? "3px solid var(--pill-warning-ink)"
+                      : undefined,
+                  paddingLeft: l.status === "seeded" ? 12 : undefined,
+                  background:
+                    l.status === "seeded"
+                      ? "var(--panel-soft, transparent)"
+                      : undefined,
+                }}
+              >
                 <div className="grow">
                   <p>
                     <span className="mono" style={{ color: "var(--muted)" }}>
@@ -1239,12 +1304,19 @@ function Lessons() {
                     <p className="sub">matches: {l.symptoms.join(" · ")}</p>
                   ) : null}
                   {l.status === "seeded" && (
-                    <p
-                      className="sub"
-                      style={{ color: "var(--pill-warning-ink)" }}
-                    >
-                      Never tested by any company. Prove it before you reuse it.
-                    </p>
+                    <div style={{ marginTop: 8 }}>
+                      <span className="pill warn">From public postmortems</span>
+                      <p
+                        className="sub"
+                        style={{
+                          color: "var(--pill-warning-ink)",
+                          marginTop: 6,
+                        }}
+                      >
+                        Seeded · Never tested by any company. Treat as a lead,
+                        not a proven fix. Prove it before reuse.
+                      </p>
+                    </div>
                   )}
                   {l.status === "failed" && (
                     <p
@@ -1580,18 +1652,14 @@ function Risks() {
     (a, b) => b.open.length - a.open.length,
   );
 
-  async function push(r: RiskRow) {
-    const target = r.companies?.[0];
-    if (!target) {
-      E("This risk has no company to push to.");
-      return;
-    }
-    P(r.id);
+  async function push(r: RiskRow, company: { id: string; name: string }) {
+    P(`${r.id}:${company.id}`);
     M("");
     E("");
+
     try {
-      await api.pushRisk(r.id, target.id);
-      M(`Sent to ${target.name}. It now has to prove the fix on its own copy.`);
+      await api.pushRisk(r.id, company.id);
+      M(`Sent to ${company.name}. It now has to prove the fix on its own copy.`);
       poll.refresh();
     } catch (e: any) {
       E(e?.message ?? String(e));
@@ -1641,21 +1709,41 @@ function Risks() {
                 </p>
                 <p className="sub">
                   {r.proven_lesson
-                    ? `Proven lesson ${r.proven_lesson.id} · ${r.proven_lesson.confirmations} confirmations · trust ${r.proven_lesson.trust_score}`
+                    ? `Proven fix (root cause: ${words(r.proven_lesson.cause_class ?? "unknown")}) · ${r.proven_lesson.confirmations} confirmations · trust ${r.proven_lesson.trust_score}`
                     : "No proven fix yet. Investigate before pushing anything."}
                 </p>
               </div>
-              {r.proven_lesson ? (
-                <button
-                  className="btn"
-                  disabled={pushing === r.id}
-                  onClick={() => push(r)}
-                >
-                  {pushing === r.id ? "Sending…" : "Push the fix"}
-                </button>
-              ) : (
+              <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+              {(r.companies ?? []).map((c) => {
+                const canPush =
+                  r.affected > 0 &&
+                  !!r.proven_lesson &&
+                  c.status === "open";
+
+                const pushKey = `${r.id}:${c.id}`;
+
+                if (!canPush) return null;
+
+                return (
+                  <button
+                    key={pushKey}
+                    className="btn"
+                    disabled={pushing === pushKey}
+                    onClick={() => push(r, c)}
+                  >
+                    {pushing === pushKey
+                      ? `Sending to ${c.name}…`
+                      : `Push fix → ${c.name}`}
+                  </button>
+                );
+              })}
+
+              {(!r.affected ||
+                !r.proven_lesson ||
+                !(r.companies ?? []).some((c) => c.status === "open")) && (
                 <span className="pill warn">nothing to push</span>
               )}
+            </div>
             </div>
           ))}
           {poll.loading && <Loading w={240} />}
@@ -1819,6 +1907,11 @@ function Meko() {
           />
         </div>
         {msg && <p className="note">{msg}</p>}
+        {m === "off" && (
+          <p className="note">
+            Meko OFF: Stored lessons shown, recall disabled.
+          </p>
+        )}
       </section>
 
       <div className="grid top">
