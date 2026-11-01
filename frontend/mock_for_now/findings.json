@@ -61,7 +61,7 @@
     "severity": "critical",
     "summary": "p95 latency above 500 ms",
     "status": "resolved",
-    "incident_id": "inc_9",
+    "incident_id": "inc_09",
     "duplicates": 1,
     "first_seen": "2026-11-01T01:05:00Z",
     "last_seen": "2026-11-01T01:06:00Z",

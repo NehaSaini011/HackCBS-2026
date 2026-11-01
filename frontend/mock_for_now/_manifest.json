@@ -1,17 +1,18 @@
 {
-  "$comment": "Route table for the offline fixtures in this folder. The app resolves every request through this list: in mock mode it is the only source, and in live mode a fixture here is what a failed call falls back to. Add an endpoint by dropping in a JSON file and adding a row. 'pick' means the file is a map keyed by that path parameter.",
-  "routes": [
-    { "method": "POST", "path": "/auth/login", "file": "login.json" },
-    { "method": "GET", "path": "/me", "file": "me.json" },
-    { "method": "GET", "path": "/findings", "file": "findings.json" },
-    { "method": "GET", "path": "/incidents/{id}", "file": "incidents.json", "pick": "id" },
-    { "method": "POST", "path": "/incidents/{id}/approve", "file": "incidents.json", "pick": "id" },
-    { "method": "POST", "path": "/incidents/{id}/reject", "file": "incidents.json", "pick": "id" },
-    { "method": "GET", "path": "/lessons", "file": "lessons.json" },
-    { "method": "GET", "path": "/group/overview", "file": "group_overview.json" },
-    { "method": "GET", "path": "/group/risks", "file": "group_risks.json" },
-    { "method": "POST", "path": "/group/risks/{id}/push", "file": "group_risks.json", "pick": "id" },
-    { "method": "GET", "path": "/settings/meko", "file": "meko.json" },
-    { "method": "PUT", "path": "/settings/meko", "file": "meko.json" }
-  ]
+"$comment": "Route table for the offline fixtures in this folder. The app resolves every request through this list: in mock mode it is the only source, and in live mode a fixture here is what a failed call falls back to. Add an endpoint by dropping in a JSON file and adding a row. 'pick' means the file is a map keyed by that path parameter.",
+"routes": [
+{ "method": "POST", "path": "/auth/login", "file": "login.json" },
+{ "method": "GET", "path": "/me", "file": "me.json" },
+{ "method": "GET", "path": "/findings", "file": "findings.json" },
+{ "method": "GET", "path": "/incidents/inc_13", "file": "incident_unknown.json" },
+{ "method": "GET", "path": "/incidents/{id}", "file": "incidents.json", "pick": "id" },
+{ "method": "POST", "path": "/incidents/{id}/approve", "file": "incidents.json", "pick": "id" },
+{ "method": "POST", "path": "/incidents/{id}/reject", "file": "incidents.json", "pick": "id" },
+{ "method": "GET", "path": "/lessons", "file": "lessons.json" },
+{ "method": "GET", "path": "/group/overview", "file": "group_overview.json" },
+{ "method": "GET", "path": "/group/risks", "file": "group_risks.json" },
+{ "method": "POST", "path": "/group/risks/{id}/push", "file": "group_risks.json", "pick": "id" },
+{ "method": "GET", "path": "/settings/meko", "file": "meko.json" },
+{ "method": "PUT", "path": "/settings/meko", "file": "meko.json" }
+]
 }

@@ -27,6 +27,8 @@ import type {
   MekoSetting,
   RiskRow,
   User,
+  DecisionResponse,
+  PushRiskResponse,
 } from "./types";
 import { FINAL_STATUSES } from "./types";
 
@@ -108,7 +110,7 @@ export function subscribeTransport(fn: (t: Transport) => void) {
  * error — so those always surface as errors.
  */
 export function shouldFallback(status: number): boolean {
-  return status === 0 || status === 404 || status >= 500;
+  return status === 0 || status >= 500;
 }
 
 // ---------- token ----------
@@ -289,27 +291,46 @@ export async function login(
 
 export const api = {
   me: () => request<User>("/me"),
+
   findings: () => request<Finding[]>("/findings"),
+
   incident: (id: string) =>
     request<Incident>(`/incidents/${encodeURIComponent(id)}`),
+
   approve: (id: string) =>
-    request<Incident>(`/incidents/${encodeURIComponent(id)}/approve`, {
-      method: "POST",
-    }),
+    request<DecisionResponse>(
+      `/incidents/${encodeURIComponent(id)}/approve`,
+      {
+        method: "POST",
+      },
+    ),
+
   reject: (id: string, reason: string) =>
-    request<Incident>(`/incidents/${encodeURIComponent(id)}/reject`, {
-      method: "POST",
-      body: JSON.stringify({ reason }),
-    }),
+    request<DecisionResponse>(
+      `/incidents/${encodeURIComponent(id)}/reject`,
+      {
+        method: "POST",
+        body: JSON.stringify({ reason }),
+      },
+    ),
+
   lessons: () => request<Lesson[]>("/lessons"),
+
   overview: () => request<GroupOverview>("/group/overview"),
+
   risks: () => request<RiskRow[]>("/group/risks"),
+
   pushRisk: (id: string, company_id: string) =>
-    request<{ ok: boolean }>(`/group/risks/${encodeURIComponent(id)}/push`, {
-      method: "POST",
-      body: JSON.stringify({ company_id }),
-    }),
+    request<PushRiskResponse>(
+      `/group/risks/${encodeURIComponent(id)}/push`,
+      {
+        method: "POST",
+        body: JSON.stringify({ company_id }),
+      },
+    ),
+
   meko: () => request<MekoSetting>("/settings/meko"),
+
   setMeko: (mode: "on" | "off") =>
     request<MekoSetting>("/settings/meko", {
       method: "PUT",
