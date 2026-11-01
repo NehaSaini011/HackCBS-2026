@@ -275,7 +275,7 @@ Do not commit secrets, database credentials, API keys or `.env` files to GitHub.
 
 | Team Member | Responsibility |
 |---|---|
-| Person 1 | Demo companies, detection, monitoring and database prover |
+| Payal -Person 1 | Demo companies, detection, monitoring and database prover |
 | Neha Saini – Person 2 | Group API, company agents, Meko integration and backend orchestration |
 | Vriti – Person 3 | Frontend web application, dashboards and API integration |
 
