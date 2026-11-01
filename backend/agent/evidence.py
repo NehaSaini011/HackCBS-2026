@@ -12,12 +12,12 @@ NAME = re.compile(r"^[a-z_][a-z0-9_]*$")     # what a safe table or column name 
 
 LATENCY_SQL = """
 WITH recent AS (
-  SELECT endpoint, percentile_cont(0.95) WITHIN GROUP (ORDER BY latency_ms) AS p95, count(*) AS n
-  FROM request_metrics WHERE time > now() - interval '2 minutes' GROUP BY endpoint),
+  SELECT endpoint, percentile_cont(0.95) WITHIN GROUP (ORDER BY total_latency_ms) AS p95, count(*) AS n
+  FROM request_metrics WHERE recorded_at > now() - interval '2 minutes' GROUP BY endpoint),
 earlier AS (
-  SELECT endpoint, percentile_cont(0.95) WITHIN GROUP (ORDER BY latency_ms) AS p95
+  SELECT endpoint, percentile_cont(0.95) WITHIN GROUP (ORDER BY total_latency_ms) AS p95
   FROM request_metrics
-  WHERE time BETWEEN now() - interval '65 minutes' AND now() - interval '5 minutes'
+  WHERE recorded_at BETWEEN now() - interval '65 minutes' AND now() - interval '5 minutes'
   GROUP BY endpoint)
 SELECT r.endpoint, round(r.p95::numeric) AS p95_now, round(e.p95::numeric) AS p95_before, r.n
 FROM recent r LEFT JOIN earlier e USING (endpoint)
@@ -43,9 +43,9 @@ NAMES_SQL = """
 SELECT table_name AS n FROM information_schema.tables WHERE table_schema = 'public'
 UNION SELECT column_name FROM information_schema.columns WHERE table_schema = 'public'
 UNION SELECT indexname FROM pg_indexes WHERE schemaname = 'public'"""
-RECENT_P95_SQL = ("SELECT percentile_cont(0.95) WITHIN GROUP (ORDER BY latency_ms) AS p95 "
+RECENT_P95_SQL = ("SELECT percentile_cont(0.95) WITHIN GROUP (ORDER BY total_latency_ms) AS p95 "
                   "FROM request_metrics WHERE endpoint = %s "
-                  "AND time > now() - make_interval(secs => %s)")
+                  "AND recorded_at > now() - make_interval(secs => %s)")
 
 
 def rows(sql: str, params: tuple | None = None) -> list[dict]:

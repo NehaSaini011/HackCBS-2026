@@ -7,7 +7,7 @@ import psycopg
 from agent import config, evidence
 
 NAME = re.compile(r"^[a-z_][a-z0-9_]*$")
-TEST_PARAMS = [3]      # customer 3 is one of Person 1's demo customers with many orders
+TEST_PARAMS = [62]     # customer 62: the demo customer Person 1's prover uses
 
 
 def candidate_shapes(target: dict) -> list[str]:
